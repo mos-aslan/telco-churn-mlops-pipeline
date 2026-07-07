@@ -1,0 +1,12 @@
+[main bcd6081] Add Docker and pipeline evidence screenshots for final submission
+ 10 files changed, 12 insertions(+)
+ create mode 100644 evidence/docker_screenshots/01_docker_image_exists.png
+ create mode 100644 evidence/docker_screenshots/02_docker_run_check_success.png
+ create mode 100644 evidence/docker_screenshots/03_docker_predict_sample_success.png
+ create mode 100644 evidence/docker_screenshots/04_docker_predict_csv_success.png
+ create mode 100644 evidence/pipeline_screenshots/01_pipeline_check_success.png
+ create mode 100644 evidence/pipeline_screenshots/02_pipeline_describe_success.png
+ create mode 100644 evidence/pipeline_screenshots/03_pipeline_predict_sample_success.png
+ create mode 100644 reports/step_13_docker_pipeline_screenshots_validation/logs/git_status_before_docker_pipeline_screenshots_commit_stderr.txt
+ create mode 100644 reports/step_13_docker_pipeline_screenshots_validation/logs/git_status_before_docker_pipeline_screenshots_commit_stdout.txt
+ create mode 100644 reports/step_13_docker_pipeline_screenshots_validation/tables/docker_pipeline_screenshots_inventory.csv

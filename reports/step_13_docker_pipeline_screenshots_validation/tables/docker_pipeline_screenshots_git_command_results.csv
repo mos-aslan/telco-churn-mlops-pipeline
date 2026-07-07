@@ -1,0 +1,5 @@
+Command Name,Command,Return Code,Success
+git_status_before_docker_pipeline_screenshots_commit,git status --short,0,True
+git_add_docker_pipeline_screenshots,git add evidence/docker_screenshots evidence/pipeline_screenshots reports/step_13_docker_pipeline_screenshots_validation,0,True
+git_commit_docker_pipeline_screenshots,git commit -m Add Docker and pipeline evidence screenshots for final submission,0,True
+git_push_docker_pipeline_screenshots,git push,0,True

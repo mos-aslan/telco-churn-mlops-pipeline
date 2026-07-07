@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-07-07 10:02:21",
+    "docker_screenshots_dir": "C:\\Users\\NezarHalabia\\finallprogect\\evidence\\docker_screenshots",
+    "pipeline_screenshots_dir": "C:\\Users\\NezarHalabia\\finallprogect\\evidence\\pipeline_screenshots",
+    "all_docker_pipeline_screenshots_exist": true,
+    "inventory_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_docker_pipeline_screenshots_validation\\tables\\docker_pipeline_screenshots_inventory.csv",
+    "command_results_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_docker_pipeline_screenshots_validation\\tables\\docker_pipeline_screenshots_git_command_results.csv",
+    "commit_and_push_done": true
+}
