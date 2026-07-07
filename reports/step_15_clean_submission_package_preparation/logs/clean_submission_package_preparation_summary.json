@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-07-07 10:44:05",
+    "project_root": "C:\\Users\\NezarHalabia\\finallprogect",
+    "submission_root": "C:\\Users\\NezarHalabia\\Final_project_submission",
+    "pre_word_zip": "C:\\Users\\NezarHalabia\\Final_project_submission_PRE_WORD.zip",
+    "submission_folder_size_mb": 135.783,
+    "pre_word_zip_size_mb": 39.114,
+    "under_200_mb": true,
+    "manifest_path": "C:\\Users\\NezarHalabia\\Final_project_submission\\SUBMISSION_PACKAGE_MANIFEST.csv",
+    "project_manifest_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_15_clean_submission_package_preparation\\tables\\clean_submission_package_manifest.csv",
+    "required_items_all_exist": true,
+    "final_word_report_included": false,
+    "next_step": "Write final Word report, add it to the clean package, then create final LMS ZIP."
+}
