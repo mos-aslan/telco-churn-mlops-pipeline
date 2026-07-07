@@ -1,0 +1,8 @@
+Evidence Type,Screenshot,Path,Exists,Size KB
+Docker,01_docker_image_exists.png,C:\Users\NezarHalabia\finallprogect\evidence\docker_screenshots\01_docker_image_exists.png,True,13.17
+Docker,02_docker_run_check_success.png,C:\Users\NezarHalabia\finallprogect\evidence\docker_screenshots\02_docker_run_check_success.png,True,16.73
+Docker,03_docker_predict_sample_success.png,C:\Users\NezarHalabia\finallprogect\evidence\docker_screenshots\03_docker_predict_sample_success.png,True,9.19
+Docker,04_docker_predict_csv_success.png,C:\Users\NezarHalabia\finallprogect\evidence\docker_screenshots\04_docker_predict_csv_success.png,True,9.21
+Pipeline,01_pipeline_check_success.png,C:\Users\NezarHalabia\finallprogect\evidence\pipeline_screenshots\01_pipeline_check_success.png,True,60.95
+Pipeline,02_pipeline_describe_success.png,C:\Users\NezarHalabia\finallprogect\evidence\pipeline_screenshots\02_pipeline_describe_success.png,True,53.23
+Pipeline,03_pipeline_predict_sample_success.png,C:\Users\NezarHalabia\finallprogect\evidence\pipeline_screenshots\03_pipeline_predict_sample_success.png,True,20.03
