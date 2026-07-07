@@ -1,0 +1,12 @@
+{
+    "step": "step_13_github_push_validation",
+    "script": "script_01_push_project_to_github",
+    "timestamp": "2026-07-07 08:08:38",
+    "project_root": "C:\\Users\\NezarHalabia\\finallprogect",
+    "github_remote_url": "https://github.com/mos-aslan/telco-churn-mlops-pipeline.git",
+    "current_branch": "main",
+    "working_tree_clean_before_push": true,
+    "file_size_audit_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_github_push_validation\\script_01_push_project_to_github\\tables\\tracked_file_size_audit_before_push.csv",
+    "github_push_success": true,
+    "results_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_github_push_validation\\script_01_push_project_to_github\\tables\\github_push_command_results.csv"
+}

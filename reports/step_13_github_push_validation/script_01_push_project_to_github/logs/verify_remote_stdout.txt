@@ -1,0 +1,2 @@
+origin	https://github.com/mos-aslan/telco-churn-mlops-pipeline.git (fetch)
+origin	https://github.com/mos-aslan/telco-churn-mlops-pipeline.git (push)
