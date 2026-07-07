@@ -1,0 +1,3 @@
+[main 386b59f] Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots
+ 1 file changed, 71 insertions(+)
+ create mode 100644 evidence/README_EVIDENCE_FA.md

@@ -36,3 +36,13 @@ final_project.ipynb
 
 # Keep data/, reports/, models/final_model/, mlflow.db, mlruns/, and evidence/
 # because they are required for academic MLOps reproducibility in this project.
+
+# Intermediate model artifacts
+# The final submitted model is kept under models/final_model/
+models/baseline_v3/
+models/tuned_v3/
+models/final_candidate_v3/
+# CatBoost temporary output
+# Duplicated raw dataset in project root
+# Official raw data is stored in data/v1/
+# Optional notebook excluded to keep repository and LMS package clean

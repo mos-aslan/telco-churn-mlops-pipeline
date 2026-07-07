@@ -1,0 +1,5 @@
+386b59f (HEAD -> main) Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots
+0fdf8c4 Add lightweight Docker deployment package for final model inference
+65ba93e Add final model package, MLflow tracking, and project reports
+536583e Add data versions, modular source code, and executable pipeline
+ae80bd2 Add final project documentation and dependency files

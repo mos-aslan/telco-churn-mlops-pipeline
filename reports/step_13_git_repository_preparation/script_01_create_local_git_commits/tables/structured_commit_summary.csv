@@ -1,0 +1,6 @@
+Commit Step,Commit Message,Existing Paths,Missing Paths,Add Success,Commit Success Or No Change,Notes
+commit_01_project_structure_and_readme,Add final project documentation and dependency files,".gitignore, README.md, PROJECT_STRUCTURE.md, SUBMISSION_CHECKLIST.md, GIT_SUBMISSION_GUIDE_FA.md, FINAL_REPORT_OUTLINE_FA.md, requirements.txt, requirements_docker.txt",,True,True,Committed or no changes
+commit_02_data_versions_and_source_modules,"Add data versions, modular source code, and executable pipeline","data, src, run_pipeline.py, run_final_inference_example.py, PIPELINE_USAGE.md",,True,True,Committed or no changes
+commit_03_model_outputs_reports_and_mlflow,"Add final model package, MLflow tracking, and project reports","models/final_model, reports, mlflow.db, mlruns, MLFLOW_USAGE.md, EXPERIMENT_REPRODUCIBILITY_SUMMARY.md",,True,True,Committed or no changes
+commit_04_docker_deployment_package,Add lightweight Docker deployment package for final model inference,"Dockerfile, .dockerignore, DOCKER_USAGE.md",,True,True,Committed or no changes
+commit_05_evidence_structure_for_submission,"Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots",evidence,,True,True,Committed or no changes

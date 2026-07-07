@@ -1,0 +1,5 @@
+[main 0fdf8c4] Add lightweight Docker deployment package for final model inference
+ 3 files changed, 107 insertions(+)
+ create mode 100644 .dockerignore
+ create mode 100644 DOCKER_USAGE.md
+ create mode 100644 Dockerfile

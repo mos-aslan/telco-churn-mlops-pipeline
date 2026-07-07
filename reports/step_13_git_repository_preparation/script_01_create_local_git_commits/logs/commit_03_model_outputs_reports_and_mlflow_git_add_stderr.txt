@@ -1,0 +1,8 @@
+warning: in the working copy of 'mlruns/models/m-04833ac3c1314b93953666bc678fde99/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-2805f1e1f6074165b687a93f97a6e029/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-4fa962c0babe46bd907fd0c22317ed66/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-54a4638520c14d57af027fc76a1ff636/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-60237d65b0584259b5143add6734808e/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-9194df2e64454ee9b8dcbfc58e5ed4ea/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-95201424ee334f84aa2b50b2348b57bc/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mlruns/models/m-fbecfd0e091b4838932e4b67fd5addd8/artifacts/requirements.txt', LF will be replaced by CRLF the next time Git touches it

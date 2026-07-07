@@ -1,0 +1,11 @@
+{
+    "step": "step_13_git_repository_preparation",
+    "script": "script_01_create_local_git_commits",
+    "timestamp": "2026-07-07 07:39:15",
+    "project_root": "C:\\Users\\NezarHalabia\\finallprogect",
+    "git_user_name": "Nezar Halabia",
+    "git_user_email": "nezar@example.com",
+    "include_notebook_in_git": false,
+    "git_results_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_git_repository_preparation\\script_01_create_local_git_commits\\tables\\git_command_results.csv",
+    "commit_summary_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_git_repository_preparation\\script_01_create_local_git_commits\\tables\\structured_commit_summary.csv"
+}
