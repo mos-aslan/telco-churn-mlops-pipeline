@@ -1,0 +1,3 @@
+?? evidence/github_screenshots/
+?? reports/step_13_github_screenshots_validation/
+?? reports/step_13_github_v1_fix/
