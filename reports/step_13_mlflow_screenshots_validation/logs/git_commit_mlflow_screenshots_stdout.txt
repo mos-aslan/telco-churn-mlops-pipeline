@@ -1,0 +1,8 @@
+[main f28ec2a] Add MLflow evidence screenshots for final submission
+ 6 files changed, 6 insertions(+)
+ create mode 100644 evidence/mlflow_screenshots/01_mlflow_experiment_runs_overview.png
+ create mode 100644 evidence/mlflow_screenshots/02_mlflow_metrics_comparison.png
+ create mode 100644 evidence/mlflow_screenshots/03_mlflow_best_tuned_catboost_run.png
+ create mode 100644 evidence/mlflow_screenshots/04_mlflow_final_champion_run.png
+ create mode 100644 evidence/mlflow_screenshots/05_mlflow_artifacts_view.png
+ create mode 100644 reports/step_13_mlflow_screenshots_validation/tables/mlflow_screenshots_inventory.csv
