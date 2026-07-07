@@ -1,4 +1,6 @@
-f27c6f1 (HEAD -> main, origin/main) Add GitHub evidence screenshots for final submission
+f2efd28 (HEAD -> main, origin/main) Add GitHub evidence screenshots for final submission
+f1fe1c5 Add GitHub evidence validation logs and v1 fix report
+f27c6f1 Add GitHub evidence screenshots for final submission
 ac3dd79 Add raw dataset version v1 to data versioning structure
 a249c01 Add Git author name correction report
 4bdc249 Add GitHub push validation report
@@ -6,5 +8,3 @@ a4c8ebf Finalize Git preparation logs and ignore intermediate model artifacts
 dc5efc0 Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots
 3600afc Add lightweight Docker deployment package for final model inference
 5283b8e Add final model package, MLflow tracking, and project reports
-e4cf9ad Add data versions, modular source code, and executable pipeline
-370b8d2 Add final project documentation and dependency files
