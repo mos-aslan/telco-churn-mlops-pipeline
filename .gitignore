@@ -18,7 +18,6 @@ Thumbs.db
 
 # Local duplicated raw file in project root
 # The official raw dataset is kept under data/v1/
-Telco_customer_churn.xlsx
 
 # CatBoost temporary training folder
 catboost_info/
@@ -46,3 +45,8 @@ models/final_candidate_v3/
 # Duplicated raw dataset in project root
 # Official raw data is stored in data/v1/
 # Optional notebook excluded to keep repository and LMS package clean
+
+# Ignore only duplicated raw dataset in project root
+# The official raw dataset is tracked under data/v1/
+/Telco_customer_churn.xlsx
+!data/v1/Telco_customer_churn.xlsx
