@@ -1,0 +1,7 @@
+4bdc249 | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Add GitHub push validation report
+a4c8ebf | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Finalize Git preparation logs and ignore intermediate model artifacts
+dc5efc0 | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots
+3600afc | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Add lightweight Docker deployment package for final model inference
+5283b8e | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Add final model package, MLflow tracking, and project reports
+e4cf9ad | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Add data versions, modular source code, and executable pipeline
+370b8d2 | Mostafa Aslan | mostafa2002aslanzora@gmail.com | Add final project documentation and dependency files
