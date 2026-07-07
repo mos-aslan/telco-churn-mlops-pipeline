@@ -1,0 +1,19 @@
+Evidence File,Exists,Size KB
+evidence/github_screenshots/01_github_repository_home.png,True,176.37
+evidence/github_screenshots/02_github_data_versions.png,True,40.96
+evidence/github_screenshots/03_github_src_modules.png,True,68.42
+evidence/github_screenshots/04_github_commit_history.png,True,75.41
+evidence/github_screenshots/05_github_final_commit_validation.png,True,90.07
+evidence/github_screenshots/06_github_readme_preview.png,True,70.52
+evidence/mlflow_screenshots/01_mlflow_experiment_runs_overview.png,True,145.74
+evidence/mlflow_screenshots/02_mlflow_metrics_comparison.png,True,68.68
+evidence/mlflow_screenshots/03_mlflow_best_tuned_catboost_run.png,True,67.15
+evidence/mlflow_screenshots/04_mlflow_final_champion_run.png,True,37.72
+evidence/mlflow_screenshots/05_mlflow_artifacts_view.png,True,37.24
+evidence/docker_screenshots/01_docker_image_exists.png,True,13.17
+evidence/docker_screenshots/02_docker_run_check_success.png,True,16.73
+evidence/docker_screenshots/03_docker_predict_sample_success.png,True,9.19
+evidence/docker_screenshots/04_docker_predict_csv_success.png,True,9.21
+evidence/pipeline_screenshots/01_pipeline_check_success.png,True,60.95
+evidence/pipeline_screenshots/02_pipeline_describe_success.png,True,53.23
+evidence/pipeline_screenshots/03_pipeline_predict_sample_success.png,True,20.03

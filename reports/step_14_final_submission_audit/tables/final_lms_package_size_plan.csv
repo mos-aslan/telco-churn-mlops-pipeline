@@ -1,0 +1,23 @@
+Item,Exists,Estimated Size MB
+data,True,22.034
+src,True,0.015
+models/final_model,True,0.559
+reports,True,11.213
+evidence,True,1.037
+mlruns,True,98.617
+mlflow.db,True,0.891
+run_pipeline.py,True,0.008
+Dockerfile,True,0.001
+.dockerignore,True,0.0
+.gitignore,True,0.001
+requirements.txt,True,0.0
+requirements_docker.txt,True,0.0
+README.md,True,0.006
+PROJECT_STRUCTURE.md,True,0.003
+SUBMISSION_CHECKLIST.md,True,0.002
+GIT_SUBMISSION_GUIDE_FA.md,True,0.002
+FINAL_REPORT_OUTLINE_FA.md,True,0.001
+PIPELINE_USAGE.md,True,0.001
+DOCKER_USAGE.md,True,0.001
+MLFLOW_USAGE.md,True,0.001
+EXPERIMENT_REPRODUCIBILITY_SUMMARY.md,True,0.002

@@ -1,0 +1,11 @@
+Requirement,Status
+"ساختار data/v1, data/v2, data/v3",Completed
+کد ماژولار در src,Completed
+run_pipeline.py,Completed
+README.md فارسی و کامل,Completed
+MLflow experiments and screenshots,Completed
+Docker deployment and screenshots,Completed
+"GitHub repository, commits, push, screenshots",Missing
+Evidence screenshots,Completed
+Estimated package size under 200 MB,Completed
+Final Word report,Pending - to be written next

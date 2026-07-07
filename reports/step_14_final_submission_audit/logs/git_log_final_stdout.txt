@@ -1,0 +1,15 @@
+21828cb (HEAD -> main, origin/main) Update pipeline readiness summary and Docker evidence validation logs
+96857ee Add Docker and pipeline screenshots validation logs
+bcd6081 Add Docker and pipeline evidence screenshots for final submission
+703957d Update GitHub screenshot validation logs after MLflow evidence workflow
+d4a2249 Add MLflow screenshots validation logs
+f28ec2a Add MLflow evidence screenshots for final submission
+f2efd28 Add GitHub evidence screenshots for final submission
+f1fe1c5 Add GitHub evidence validation logs and v1 fix report
+f27c6f1 Add GitHub evidence screenshots for final submission
+ac3dd79 Add raw dataset version v1 to data versioning structure
+a249c01 Add Git author name correction report
+4bdc249 Add GitHub push validation report
+a4c8ebf Finalize Git preparation logs and ignore intermediate model artifacts
+dc5efc0 Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots
+3600afc Add lightweight Docker deployment package for final model inference

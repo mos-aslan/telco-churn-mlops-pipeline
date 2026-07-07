@@ -1,0 +1,22 @@
+{
+    "timestamp": "2026-07-07 10:13:41",
+    "all_structure_ok": true,
+    "all_evidence_ok": true,
+    "github_repository_ready": true,
+    "mlflow_ready": true,
+    "docker_ready": true,
+    "pipeline_ready": true,
+    "package_total_mb_before_compression_estimate": 134.395,
+    "size_ok_under_200_mb": true,
+    "final_model_metrics": {
+        "Final Model": "CatBoost",
+        "Dataset Version": "v3_encoded_unscaled",
+        "Decision Threshold": 0.5,
+        "Accuracy": 0.7579843860894251,
+        "Precision": 0.5289982425307557,
+        "Recall": 0.8048128342245989,
+        "F1-score": 0.6383881230116649,
+        "ROC-AUC": 0.8576610090676586
+    },
+    "next_step": "Write final Word report"
+}
