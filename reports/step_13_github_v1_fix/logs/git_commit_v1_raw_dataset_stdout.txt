@@ -1,0 +1,3 @@
+[main ac3dd79] Add raw dataset version v1 to data versioning structure
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 data/v1/Telco_customer_churn.xlsx

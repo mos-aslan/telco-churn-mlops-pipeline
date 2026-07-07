@@ -1,0 +1,7 @@
+{
+    "timestamp": "2026-07-07 08:41:58",
+    "raw_v1_file": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v1\\Telco_customer_churn.xlsx",
+    "raw_v1_file_exists": true,
+    "github_v1_fix_success": true,
+    "results_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_github_v1_fix\\tables\\github_v1_fix_command_results.csv"
+}

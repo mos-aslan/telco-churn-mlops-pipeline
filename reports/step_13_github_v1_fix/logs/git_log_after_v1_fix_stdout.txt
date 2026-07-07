@@ -1,0 +1,9 @@
+ac3dd79 (HEAD -> main, origin/main) Add raw dataset version v1 to data versioning structure
+a249c01 Add Git author name correction report
+4bdc249 Add GitHub push validation report
+a4c8ebf Finalize Git preparation logs and ignore intermediate model artifacts
+dc5efc0 Add evidence folders for MLflow, Docker, GitHub, and pipeline screenshots
+3600afc Add lightweight Docker deployment package for final model inference
+5283b8e Add final model package, MLflow tracking, and project reports
+e4cf9ad Add data versions, modular source code, and executable pipeline
+370b8d2 Add final project documentation and dependency files

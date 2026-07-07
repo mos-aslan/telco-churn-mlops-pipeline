@@ -1,0 +1,7 @@
+Command Name,Command,Return Code,Success
+git_status_before_v1_fix,git status --short,0,True
+git_add_v1_raw_dataset,git add .gitignore data/v1/Telco_customer_churn.xlsx,0,True
+git_commit_v1_raw_dataset,git commit -m Add raw dataset version v1 to data versioning structure,0,True
+git_push_v1_fix,git push,0,True
+git_status_after_v1_fix,git status,0,True
+git_log_after_v1_fix,git log --oneline --decorate -10,0,True

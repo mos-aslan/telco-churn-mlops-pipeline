@@ -1,0 +1,11 @@
+[main f27c6f1] Add GitHub evidence screenshots for final submission
+ 9 files changed, 10 insertions(+)
+ create mode 100644 evidence/github_screenshots/01_github_repository_home.png
+ create mode 100644 evidence/github_screenshots/02_github_data_versions.png
+ create mode 100644 evidence/github_screenshots/03_github_src_modules.png
+ create mode 100644 evidence/github_screenshots/04_github_commit_history.png
+ create mode 100644 evidence/github_screenshots/05_github_final_commit_validation.png
+ create mode 100644 evidence/github_screenshots/06_github_readme_preview.png
+ create mode 100644 reports/step_13_github_screenshots_validation/logs/git_status_before_screenshots_commit_stderr.txt
+ create mode 100644 reports/step_13_github_screenshots_validation/logs/git_status_before_screenshots_commit_stdout.txt
+ create mode 100644 reports/step_13_github_screenshots_validation/tables/github_screenshots_inventory.csv
