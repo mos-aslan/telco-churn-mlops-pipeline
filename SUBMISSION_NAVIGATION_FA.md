@@ -1,110 +1,80 @@
 # راهنمای سریع بررسی پروژه برای استاد
 
-این فایل برای کمک به بررسی سریع پروژه تهیه شده است و مسیر فایل‌ها و شواهد اصلی را مشخص می‌کند.
+این فایل نقطه شروع بررسی پروژه است و مسیرهای اصلی را مشخص می‌کند.
 
-## 1. لینک مخزن GitHub
+## 1. لینک GitHub
 
 ```text
 https://github.com/mos-aslan/telco-churn-mlops-pipeline
 ```
 
-## 2. ساختار اصلی پروژه مطابق فایل تکلیف
+## 2. ساختار اصلی مورد انتظار
 
 ```text
-data/
-├── v1/    داده خام
-├── v2/    داده پاکسازی‌شده و Encoding شده
-└── v3/    داده نهایی Feature Engineering
-
-src/
-├── data_loader.py
-├── preprocessing.py
-├── features.py
-├── train.py
-├── evaluate.py
-├── mlflow_utils.py
-└── inference.py
-
-run_pipeline.py
-README.md
+Final_project_submission/
+├── data/
+│   ├── v1/
+│   ├── v2/
+│   └── v3/
+├── src/
+├── models/final_model/
+├── reports/
+├── evidence/
+├── mlruns/
+├── docs/
+├── mlflow.db
+├── Dockerfile
+├── requirements.txt
+├── requirements_docker.txt
+├── run_pipeline.py
+├── README.md
+├── SUBMISSION_NAVIGATION_FA.md
+└── گزارش_نهایی_پروژه.docx
 ```
 
-## 3. مسیرهای مهم
+## 3. مسیرهای اصلی
 
 | بخش | مسیر | توضیح |
 |---|---|---|
-| داده خام | `data/v1/` | نسخه خام دیتاست Telco Customer Churn |
-| داده پاکسازی‌شده | `data/v2/` | خروجی پاکسازی و Encoding |
-| داده نهایی | `data/v3/` | نسخه نهایی مناسب مدل‌سازی |
-| کدهای پروژه | `src/` | کد ماژولار پروژه |
-| مدل نهایی | `models/final_model/` | مدل CatBoost نهایی و فایل‌های inference |
-| خروجی‌های مرحله‌ای | `reports/` | گزارش‌ها، جداول، نمودارها و logs هر مرحله |
-| تصاویر شواهد | `evidence/` | تصاویر GitHub، MLflow، Docker و Pipeline |
-| MLflow Database | `mlflow.db` | پایگاه داده ثبت آزمایش‌ها |
-| MLflow Artifacts | `mlruns/` | artifacts مربوط به اجرای MLflow |
+| داده‌ها | `data/v1`, `data/v2`, `data/v3` | نسخه خام، پاکسازی‌شده و نهایی |
+| کدها | `src/` | فایل‌های ماژولار پروژه |
+| اجرای Pipeline | `run_pipeline.py` | اجرای check، describe و predict |
+| مدل نهایی | `models/final_model/` | مدل نهایی CatBoost و فایل‌های inference |
+| MLflow | `mlflow.db` و `mlruns/` | ثبت آزمایش‌ها، metrics، params و artifacts |
+| Docker | `Dockerfile`, `.dockerignore`, `requirements_docker.txt` | استقرار مدل نهایی |
+| تصاویر شواهد | `evidence/` | GitHub، MLflow، Docker و Pipeline |
+| مستندات کمکی | `docs/` | فایل‌های راهنما و Audit |
+| گزارش نهایی | `گزارش_نهایی_پروژه.docx` | گزارش Word نهایی پس از آماده‌سازی |
 
-## 4. تصاویر Evidence
-
-```text
-evidence/github_screenshots/
-evidence/mlflow_screenshots/
-evidence/docker_screenshots/
-evidence/pipeline_screenshots/
-```
-
-## 5. اجرای Pipeline
-
-برای بررسی آماده بودن پروژه:
+## 4. اجرای سریع Pipeline
 
 ```bash
 python run_pipeline.py --mode check
-```
-
-برای مشاهده مشخصات مدل نهایی:
-
-```bash
 python run_pipeline.py --mode describe
-```
-
-برای پیش‌بینی نمونه:
-
-```bash
 python run_pipeline.py --mode predict-sample
 ```
 
-## 6. اجرای MLflow
+## 5. اجرای MLflow
 
 ```bash
 python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 127.0.0.1 --port 5000
 ```
 
-سپس در مرورگر:
+سپس:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## 7. اجرای Docker
-
-ساخت image:
+## 6. اجرای Docker
 
 ```bash
 docker build -t telco-churn-mlops:v3-light .
-```
-
-اجرای بررسی داخل Docker:
-
-```bash
 docker run --rm telco-churn-mlops:v3-light python run_pipeline.py --mode check
-```
-
-اجرای پیش‌بینی نمونه داخل Docker:
-
-```bash
 docker run --rm telco-churn-mlops:v3-light python run_pipeline.py --mode predict-sample
 ```
 
-## 8. مدل نهایی
+## 7. مدل نهایی
 
 - مدل نهایی: CatBoost
 - نسخه دیتاست: v3_encoded_unscaled
@@ -115,6 +85,10 @@ docker run --rm telco-churn-mlops:v3-light python run_pipeline.py --mode predict
 - F1-score: 0.638388
 - ROC-AUC: 0.857661
 
-## 9. نکته درباره پوشه mlruns
+## 8. نکته درباره mlruns
 
-پوشه `mlruns/` شامل Run IDهای خودکار MLflow است. نام‌های طولانی داخل این پوشه نباید تغییر داده شوند، زیرا MLflow از این شناسه‌ها برای اتصال runs، metrics و artifacts استفاده می‌کند. برای مشاهده ساختار قابل فهم MLflow از فایل `MLFLOW_RUNS_INDEX_FA.md` و تصاویر موجود در `evidence/mlflow_screenshots/` استفاده شود.
+پوشه‌های داخل `mlruns/` دارای نام‌های طولانی هستند، چون MLflow برای هر run یک شناسه یکتا ایجاد می‌کند. این نام‌ها نباید تغییر داده شوند. توضیح کامل در فایل زیر آمده است:
+
+```text
+docs/MLFLOW_RUNS_INDEX_FA.md
+```

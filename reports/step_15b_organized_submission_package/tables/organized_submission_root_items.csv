@@ -1,0 +1,19 @@
+Root Item,Type,Size MB
+.dockerignore,file,0.0
+data,directory,23.339
+Dockerfile,file,0.001
+docs,directory,0.021
+evidence,directory,1.037
+mlflow.db,file,0.891
+mlruns,directory,98.617
+models,directory,0.559
+README.md,file,0.006
+reports,directory,11.287
+requirements.txt,file,0.0
+requirements_docker.txt,file,0.0
+run_final_inference_example.py,file,0.0
+run_pipeline.py,file,0.008
+src,directory,0.015
+SUBMISSION_NAVIGATION_FA.md,file,0.003
+SUBMISSION_PACKAGE_MANIFEST.csv,file,0.067
+SUBMISSION_TREE.txt,file,0.001
