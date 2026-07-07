@@ -1,0 +1,6 @@
+Screenshot,Path,Exists,Size KB
+01_mlflow_experiment_runs_overview.png,C:\Users\NezarHalabia\finallprogect\evidence\mlflow_screenshots\01_mlflow_experiment_runs_overview.png,True,145.74
+02_mlflow_metrics_comparison.png,C:\Users\NezarHalabia\finallprogect\evidence\mlflow_screenshots\02_mlflow_metrics_comparison.png,True,68.68
+03_mlflow_best_tuned_catboost_run.png,C:\Users\NezarHalabia\finallprogect\evidence\mlflow_screenshots\03_mlflow_best_tuned_catboost_run.png,True,67.15
+04_mlflow_final_champion_run.png,C:\Users\NezarHalabia\finallprogect\evidence\mlflow_screenshots\04_mlflow_final_champion_run.png,True,37.72
+05_mlflow_artifacts_view.png,C:\Users\NezarHalabia\finallprogect\evidence\mlflow_screenshots\05_mlflow_artifacts_view.png,True,37.24
