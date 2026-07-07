@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+*.ipynb
+.git/
+.gitignore
+
+# Reports and experiment tracking are not required inside the runtime image
+reports/
+mlruns/
+mlflow.db
+notebooks/
+
+# Keep only final model package
+models/baseline_v3/
+models/tuned_v3/
+models/final_candidate_v3/
+
+# Do not copy local environment folders
+venv/
+.venv/
+env/
+site-packages/
+
+# OS files
+.DS_Store
+Thumbs.db
