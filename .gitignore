@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local duplicated raw file in project root
+# The official raw dataset is kept under data/v1/
+Telco_customer_churn.xlsx
+
+# CatBoost temporary training folder
+catboost_info/
+
+# Local Docker Desktop internal storage must never be part of the project
+DockerDesktopData/
+
+# Submission archives should not be committed
+*.zip
+*.rar
+*.7z
+
+# Optional notebook exclusion to keep repository and LMS ZIP clean
+final_project.ipynb
+
+# Keep data/, reports/, models/final_model/, mlflow.db, mlruns/, and evidence/
+# because they are required for academic MLOps reproducibility in this project.
