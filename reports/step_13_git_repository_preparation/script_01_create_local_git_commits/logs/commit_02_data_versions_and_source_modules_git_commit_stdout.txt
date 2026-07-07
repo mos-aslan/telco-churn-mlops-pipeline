@@ -1,0 +1,19 @@
+[main 536583e] Add data versions, modular source code, and executable pipeline
+ 17 files changed, 36053 insertions(+)
+ create mode 100644 PIPELINE_USAGE.md
+ create mode 100644 data/v2/telco_churn_v2.csv
+ create mode 100644 data/v2/telco_churn_v2_readable.csv
+ create mode 100644 data/v3/telco_churn_v3.csv
+ create mode 100644 data/v3/telco_churn_v3_encoded_unscaled.csv
+ create mode 100644 data/v3/telco_churn_v3_readable.csv
+ create mode 100644 run_final_inference_example.py
+ create mode 100644 run_pipeline.py
+ create mode 100644 src/__init__.py
+ create mode 100644 src/config.py
+ create mode 100644 src/data_loader.py
+ create mode 100644 src/evaluate.py
+ create mode 100644 src/features.py
+ create mode 100644 src/inference.py
+ create mode 100644 src/mlflow_utils.py
+ create mode 100644 src/preprocessing.py
+ create mode 100644 src/train.py

@@ -1,0 +1,4 @@
+Candidate,Source Step,Model,Threshold Type,Threshold,Accuracy,Precision,Recall,F1-score,ROC-AUC,Model Path
+Threshold-Optimized Tuned Model,Step 7,CatBoost,Optimized,0.5,0.7579843860894251,0.5289982425307557,0.8048128342245989,0.6383881230116649,0.8576610090676586,C:\Users\NezarHalabia\finallprogect\models\final_candidate_v3\final_candidate_model_v3.joblib
+Best Tuned Model,Step 6,CatBoost,Default,0.5,0.757984,0.528998,0.804813,0.638388,0.857661,C:\Users\NezarHalabia\finallprogect\models\tuned_v3\best_tuned_model_v3.joblib
+Best Baseline Model,Step 5,CatBoost,Default,0.5,0.762952,0.538911,0.740642,0.623874,0.848914,C:\Users\NezarHalabia\finallprogect\models\baseline_v3\best_baseline_model_v3.joblib

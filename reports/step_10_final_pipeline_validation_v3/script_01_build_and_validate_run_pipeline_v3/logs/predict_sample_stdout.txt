@@ -1,0 +1,7 @@
+================================================================================
+SAMPLE PREDICTION
+================================================================================
+ churn_probability  decision_threshold  prediction risk_level
+          0.656054                 0.5           1     Medium
+
+Sample prediction saved: C:\Users\NezarHalabia\finallprogect\reports\final_pipeline_runs\sample_prediction_from_pipeline.csv

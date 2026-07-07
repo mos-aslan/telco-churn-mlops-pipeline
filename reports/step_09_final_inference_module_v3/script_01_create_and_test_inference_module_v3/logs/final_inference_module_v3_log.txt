@@ -1,0 +1,15 @@
+STEP 9 - FINAL INFERENCE MODULE AND REPRODUCIBILITY TEST
+
+Timestamp: 2026-07-07 03:40:23
+Model name: CatBoost
+Decision threshold: 0.5
+Feature count: 52
+Inference module path: C:\Users\NezarHalabia\finallprogect\src\inference.py
+Example script path: C:\Users\NezarHalabia\finallprogect\run_final_inference_example.py
+
+Test metrics:
+   Model  Threshold  Accuracy  Precision   Recall  F1-score  ROC-AUC
+CatBoost        0.5  0.757984   0.528998 0.804813  0.638388 0.857661
+
+MLflow tracking URI: sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db
+MLflow artifact location: file:///C:/Users/NezarHalabia/finallprogect/mlruns

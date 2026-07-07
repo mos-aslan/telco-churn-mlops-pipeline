@@ -1,0 +1,53 @@
+Feature,Importance
+Is_Month_To_Month,0.28468825063586917
+Contract_Risk_Level,0.19664895500292484
+Charges_Per_Tenure,0.12462552733888431
+Dependents_Yes,0.09402642574078768
+Monthly Charges,0.03795486983981269
+Internet Service_Fiber optic,0.03481539538939483
+Is_Fiber_Optic,0.034677565941534726
+CLTV,0.02250239192395271
+Latitude,0.021191328909976794
+Longitude,0.01915400038769637
+No_Online_Security,0.017875078176396563
+TotalCharges_to_MonthlyRatio,0.01608302746465778
+Total Charges,0.01152052230101234
+Phone Service_Yes,0.00856085964334279
+Estimated_Total_Charges,0.0076387411407435124
+No_Tech_Support,0.00713521338001544
+Contract_Two year,0.0066099337209184796
+Is_Electronic_Check,0.005339464957884802
+Payment Method_Electronic check,0.005252467304061234
+Paperless Billing_Yes,0.00507601319207036
+Protection_Support_Count,0.005048847844139282
+Streaming_Services_Count,0.004731201963030118
+Tenure Months,0.003922751716327193
+Partner_Yes,0.0035839994060822365
+Streaming Movies_Yes,0.002955837109392537
+Gender_Male,0.0023460948097426726
+Total_Services_Count,0.002047746916166415
+Payment Method_Mailed check,0.0016936993975251652
+Streaming TV_Yes,0.0016390061563790108
+Multiple Lines_Yes,0.001597333452028959
+Tech Support_Yes,0.0013191598762504187
+Online Security_Yes,0.0012312963896612078
+Senior Citizen_Yes,0.0011095641348250072
+Contract_One year,0.0010586028053336393
+Online Backup_Yes,0.0008989335592068844
+Tenure_Group_13_24_months,0.0006910059311861948
+Payment Method_Credit card (automatic),0.0005743571406709822
+Device Protection_Yes,0.0004919489387746919
+Tenure_Group_25_48_months,0.00031345743933812144
+Streaming Movies_No internet service,0.00023406675535922884
+Multiple Lines_No phone service,0.00022396162448018027
+Streaming TV_No internet service,0.00015379720200706275
+Device Protection_No internet service,0.0001331414530294405
+Tech Support_No internet service,0.00012864073262024503
+Has_Internet_Service,0.00011529747673272348
+Internet Service_No,0.00011448008530794668
+Online Security_No internet service,0.0001045352139540369
+High_Monthly_Charges,6.518639043062926e-05
+Online Backup_No internet service,3.586056492236549e-05
+Is_Long_Term_Customer,2.680966096624658e-05
+Is_New_Customer,1.8186604013449488e-05
+Tenure_Group_49_72_months,1.515885817839371e-05

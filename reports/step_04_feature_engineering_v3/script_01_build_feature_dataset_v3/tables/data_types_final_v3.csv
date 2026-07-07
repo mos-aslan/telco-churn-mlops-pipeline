@@ -1,0 +1,54 @@
+Column,Data Type in Final v3
+Latitude,float64
+Longitude,float64
+Tenure Months,float64
+Monthly Charges,float64
+Total Charges,float64
+Churn Value,int64
+CLTV,float64
+Is_New_Customer,int64
+Is_Long_Term_Customer,int64
+Charges_Per_Tenure,float64
+Estimated_Total_Charges,float64
+High_Monthly_Charges,int64
+TotalCharges_to_MonthlyRatio,float64
+Contract_Risk_Level,float64
+Is_Month_To_Month,int64
+Is_Electronic_Check,int64
+Has_Internet_Service,int64
+Is_Fiber_Optic,int64
+Total_Services_Count,float64
+Protection_Support_Count,float64
+Streaming_Services_Count,float64
+No_Online_Security,int64
+No_Tech_Support,int64
+Gender_Male,int64
+Senior Citizen_Yes,int64
+Partner_Yes,int64
+Dependents_Yes,int64
+Phone Service_Yes,int64
+Multiple Lines_No phone service,int64
+Multiple Lines_Yes,int64
+Internet Service_Fiber optic,int64
+Internet Service_No,int64
+Online Security_No internet service,int64
+Online Security_Yes,int64
+Online Backup_No internet service,int64
+Online Backup_Yes,int64
+Device Protection_No internet service,int64
+Device Protection_Yes,int64
+Tech Support_No internet service,int64
+Tech Support_Yes,int64
+Streaming TV_No internet service,int64
+Streaming TV_Yes,int64
+Streaming Movies_No internet service,int64
+Streaming Movies_Yes,int64
+Contract_One year,int64
+Contract_Two year,int64
+Paperless Billing_Yes,int64
+Payment Method_Credit card (automatic),int64
+Payment Method_Electronic check,int64
+Payment Method_Mailed check,int64
+Tenure_Group_13_24_months,int64
+Tenure_Group_25_48_months,int64
+Tenure_Group_49_72_months,int64

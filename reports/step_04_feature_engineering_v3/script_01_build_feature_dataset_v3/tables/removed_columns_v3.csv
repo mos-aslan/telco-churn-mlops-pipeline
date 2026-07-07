@@ -1,0 +1,3 @@
+Removed Column in v3,Reason
+City,High-cardinality categorical column that causes excessive one-hot expansion.
+Zip Code,Pseudo-numeric geographic identifier; Latitude and Longitude are retained instead.

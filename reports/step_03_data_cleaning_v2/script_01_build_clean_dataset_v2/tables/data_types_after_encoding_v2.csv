@@ -1,0 +1,1164 @@
+Column,Data Type After Encoding
+Zip Code,int64
+Latitude,float64
+Longitude,float64
+Tenure Months,int64
+Monthly Charges,float64
+Total Charges,float64
+Churn Value,int64
+CLTV,int64
+City_Acton,int64
+City_Adelanto,int64
+City_Adin,int64
+City_Agoura Hills,int64
+City_Aguanga,int64
+City_Ahwahnee,int64
+City_Alameda,int64
+City_Alamo,int64
+City_Albany,int64
+City_Albion,int64
+City_Alderpoint,int64
+City_Alhambra,int64
+City_Aliso Viejo,int64
+City_Alleghany,int64
+City_Alpaugh,int64
+City_Alpine,int64
+City_Alta,int64
+City_Altadena,int64
+City_Alturas,int64
+City_Alviso,int64
+City_Amador City,int64
+City_Amboy,int64
+City_Anaheim,int64
+City_Anderson,int64
+City_Angels Camp,int64
+City_Angelus Oaks,int64
+City_Angwin,int64
+City_Annapolis,int64
+City_Antelope,int64
+City_Antioch,int64
+City_Anza,int64
+City_Apple Valley,int64
+City_Applegate,int64
+City_Aptos,int64
+City_Arbuckle,int64
+City_Arcadia,int64
+City_Arcata,int64
+City_Armona,int64
+City_Arnold,int64
+City_Aromas,int64
+City_Arroyo Grande,int64
+City_Artesia,int64
+City_Arvin,int64
+City_Atascadero,int64
+City_Atherton,int64
+City_Atwater,int64
+City_Auberry,int64
+City_Auburn,int64
+City_Avalon,int64
+City_Avenal,int64
+City_Avery,int64
+City_Avila Beach,int64
+City_Azusa,int64
+City_Badger,int64
+City_Baker,int64
+City_Bakersfield,int64
+City_Baldwin Park,int64
+City_Ballico,int64
+City_Bangor,int64
+City_Banning,int64
+City_Barstow,int64
+City_Bass Lake,int64
+City_Bayside,int64
+City_Beale Afb,int64
+City_Beaumont,int64
+City_Bell,int64
+City_Bella Vista,int64
+City_Bellflower,int64
+City_Belmont,int64
+City_Belvedere Tiburon,int64
+City_Ben Lomond,int64
+City_Benicia,int64
+City_Benton,int64
+City_Berkeley,int64
+City_Berry Creek,int64
+City_Bethel Island,int64
+City_Beverly Hills,int64
+City_Bieber,int64
+City_Big Bar,int64
+City_Big Bear City,int64
+City_Big Bear Lake,int64
+City_Big Bend,int64
+City_Big Creek,int64
+City_Big Oak Flat,int64
+City_Big Pine,int64
+City_Big Sur,int64
+City_Biggs,int64
+City_Biola,int64
+City_Birds Landing,int64
+City_Bishop,int64
+City_Blairsden Graeagle,int64
+City_Blocksburg,int64
+City_Bloomington,int64
+City_Blue Lake,int64
+City_Blythe,int64
+City_Bodega,int64
+City_Bodega Bay,int64
+City_Bodfish,int64
+City_Bolinas,int64
+City_Bonita,int64
+City_Bonsall,int64
+City_Boonville,int64
+City_Boron,int64
+City_Borrego Springs,int64
+City_Boulder Creek,int64
+City_Boulevard,int64
+City_Bradley,int64
+City_Branscomb,int64
+City_Brawley,int64
+City_Brea,int64
+City_Brentwood,int64
+City_Bridgeport,int64
+City_Bridgeville,int64
+City_Brisbane,int64
+City_Brookdale,int64
+City_Brooks,int64
+City_Browns Valley,int64
+City_Brownsville,int64
+City_Buellton,int64
+City_Buena Park,int64
+City_Burbank,int64
+City_Burlingame,int64
+City_Burney,int64
+City_Burnt Ranch,int64
+City_Burson,int64
+City_Butte City,int64
+City_Buttonwillow,int64
+City_Byron,int64
+City_Cabazon,int64
+City_Calabasas,int64
+City_Calexico,int64
+City_Caliente,int64
+City_California City,int64
+City_California Hot Springs,int64
+City_Calimesa,int64
+City_Calipatria,int64
+City_Calistoga,int64
+City_Callahan,int64
+City_Calpine,int64
+City_Camarillo,int64
+City_Cambria,int64
+City_Camino,int64
+City_Camp Nelson,int64
+City_Campbell,int64
+City_Campo,int64
+City_Campo Seco,int64
+City_Camptonville,int64
+City_Canby,int64
+City_Canoga Park,int64
+City_Cantua Creek,int64
+City_Canyon Country,int64
+City_Canyon Dam,int64
+City_Capay,int64
+City_Capistrano Beach,int64
+City_Capitola,int64
+City_Cardiff By The Sea,int64
+City_Carlotta,int64
+City_Carlsbad,int64
+City_Carmel,int64
+City_Carmel By The Sea,int64
+City_Carmel Valley,int64
+City_Carmichael,int64
+City_Carnelian Bay,int64
+City_Carpinteria,int64
+City_Carson,int64
+City_Caruthers,int64
+City_Casmalia,int64
+City_Caspar,int64
+City_Cassel,int64
+City_Castaic,int64
+City_Castella,int64
+City_Castro Valley,int64
+City_Castroville,int64
+City_Cathedral City,int64
+City_Catheys Valley,int64
+City_Cayucos,int64
+City_Cazadero,int64
+City_Cedar Glen,int64
+City_Cedarville,int64
+City_Ceres,int64
+City_Cerritos,int64
+City_Challenge,int64
+City_Chatsworth,int64
+City_Chester,int64
+City_Chico,int64
+City_Chilcoot,int64
+City_Chino,int64
+City_Chino Hills,int64
+City_Chowchilla,int64
+City_Chualar,int64
+City_Chula Vista,int64
+City_Citrus Heights,int64
+City_Claremont,int64
+City_Clarksburg,int64
+City_Clayton,int64
+City_Clearlake,int64
+City_Clearlake Oaks,int64
+City_Clements,int64
+City_Clio,int64
+City_Clipper Mills,int64
+City_Cloverdale,int64
+City_Clovis,int64
+City_Coachella,int64
+City_Coalinga,int64
+City_Coarsegold,int64
+City_Cobb,int64
+City_Coleville,int64
+City_Colfax,int64
+City_Colton,int64
+City_Columbia,int64
+City_Colusa,int64
+City_Comptche,int64
+City_Compton,int64
+City_Concord,int64
+City_Cool,int64
+City_Copperopolis,int64
+City_Corcoran,int64
+City_Corning,int64
+City_Corona,int64
+City_Corona Del Mar,int64
+City_Coronado,int64
+City_Corte Madera,int64
+City_Costa Mesa,int64
+City_Cotati,int64
+City_Cottonwood,int64
+City_Coulterville,int64
+City_Courtland,int64
+City_Covelo,int64
+City_Covina,int64
+City_Crescent City,int64
+City_Crescent Mills,int64
+City_Cressey,int64
+City_Crestline,int64
+City_Creston,int64
+City_Crockett,int64
+City_Crows Landing,int64
+City_Culver City,int64
+City_Cupertino,int64
+City_Cutler,int64
+City_Cypress,int64
+City_Daggett,int64
+City_Daly City,int64
+City_Dana Point,int64
+City_Danville,int64
+City_Darwin,int64
+City_Davenport,int64
+City_Davis,int64
+City_Davis Creek,int64
+City_Death Valley,int64
+City_Deer Park,int64
+City_Del Mar,int64
+City_Del Rey,int64
+City_Delano,int64
+City_Delhi,int64
+City_Denair,int64
+City_Descanso,int64
+City_Desert Center,int64
+City_Desert Hot Springs,int64
+City_Diamond Bar,int64
+City_Diamond Springs,int64
+City_Dillon Beach,int64
+City_Dinuba,int64
+City_Dixon,int64
+City_Dobbins,int64
+City_Dorris,int64
+City_Dos Palos,int64
+City_Dos Rios,int64
+City_Douglas City,int64
+City_Downey,int64
+City_Downieville,int64
+City_Doyle,int64
+City_Duarte,int64
+City_Dublin,int64
+City_Ducor,int64
+City_Dulzura,int64
+City_Duncans Mills,int64
+City_Dunlap,int64
+City_Dunnigan,int64
+City_Dunsmuir,int64
+City_Durham,int64
+City_Dutch Flat,int64
+City_Eagleville,int64
+City_Earlimart,int64
+City_Earp,int64
+City_Echo Lake,int64
+City_Edwards,int64
+City_El Cajon,int64
+City_El Centro,int64
+City_El Cerrito,int64
+City_El Dorado,int64
+City_El Dorado Hills,int64
+City_El Monte,int64
+City_El Nido,int64
+City_El Portal,int64
+City_El Segundo,int64
+City_El Sobrante,int64
+City_Eldridge,int64
+City_Elk,int64
+City_Elk Creek,int64
+City_Elk Grove,int64
+City_Elmira,int64
+City_Elverta,int64
+City_Emeryville,int64
+City_Emigrant Gap,int64
+City_Encinitas,int64
+City_Encino,int64
+City_Escalon,int64
+City_Escondido,int64
+City_Esparto,int64
+City_Essex,int64
+City_Etna,int64
+City_Eureka,int64
+City_Exeter,int64
+City_Fair Oaks,int64
+City_Fairfax,int64
+City_Fairfield,int64
+City_Fall River Mills,int64
+City_Fallbrook,int64
+City_Farmersville,int64
+City_Farmington,int64
+City_Fawnskin,int64
+City_Fellows,int64
+City_Felton,int64
+City_Ferndale,int64
+City_Fiddletown,int64
+City_Fields Landing,int64
+City_Fillmore,int64
+City_Firebaugh,int64
+City_Fish Camp,int64
+City_Five Points,int64
+City_Flournoy,int64
+City_Folsom,int64
+City_Fontana,int64
+City_Foothill Ranch,int64
+City_Forbestown,int64
+City_Forest Falls,int64
+City_Forest Knolls,int64
+City_Forest Ranch,int64
+City_Foresthill,int64
+City_Forestville,int64
+City_Forks Of Salmon,int64
+City_Fort Bidwell,int64
+City_Fort Bragg,int64
+City_Fort Irwin,int64
+City_Fort Jones,int64
+City_Fortuna,int64
+City_Fountain Valley,int64
+City_Fowler,int64
+City_Frazier Park,int64
+City_Freedom,int64
+City_Fremont,int64
+City_French Camp,int64
+City_French Gulch,int64
+City_Fresno,int64
+City_Friant,int64
+City_Fullerton,int64
+City_Fulton,int64
+City_Galt,int64
+City_Garberville,int64
+City_Garden Grove,int64
+City_Garden Valley,int64
+City_Gardena,int64
+City_Gasquet,int64
+City_Gazelle,int64
+City_Georgetown,int64
+City_Gerber,int64
+City_Geyserville,int64
+City_Gilroy,int64
+City_Glen Ellen,int64
+City_Glencoe,int64
+City_Glendale,int64
+City_Glendora,int64
+City_Glenhaven,int64
+City_Glenn,int64
+City_Glennville,int64
+City_Gold Run,int64
+City_Goleta,int64
+City_Gonzales,int64
+City_Goodyears Bar,int64
+City_Granada Hills,int64
+City_Grand Terrace,int64
+City_Granite Bay,int64
+City_Grass Valley,int64
+City_Graton,int64
+City_Green Valley Lake,int64
+City_Greenbrae,int64
+City_Greenfield,int64
+City_Greenview,int64
+City_Greenville,int64
+City_Greenwood,int64
+City_Grenada,int64
+City_Gridley,int64
+City_Grimes,int64
+City_Grizzly Flats,int64
+City_Groveland,int64
+City_Grover Beach,int64
+City_Guadalupe,int64
+City_Gualala,int64
+City_Guatay,int64
+City_Guerneville,int64
+City_Guinda,int64
+City_Gustine,int64
+City_Hacienda Heights,int64
+City_Half Moon Bay,int64
+City_Hamilton City,int64
+City_Hanford,int64
+City_Happy Camp,int64
+City_Harbor City,int64
+City_Hat Creek,int64
+City_Hathaway Pines,int64
+City_Hawaiian Gardens,int64
+City_Hawthorne,int64
+City_Hayfork,int64
+City_Hayward,int64
+City_Healdsburg,int64
+City_Heber,int64
+City_Helendale,int64
+City_Helm,int64
+City_Hemet,int64
+City_Herald,int64
+City_Hercules,int64
+City_Herlong,int64
+City_Hermosa Beach,int64
+City_Hesperia,int64
+City_Hickman,int64
+City_Highland,int64
+City_Hilmar,int64
+City_Hinkley,int64
+City_Hollister,int64
+City_Holtville,int64
+City_Homeland,int64
+City_Homewood,int64
+City_Honeydew,int64
+City_Hood,int64
+City_Hoopa,int64
+City_Hopland,int64
+City_Hornbrook,int64
+City_Hornitos,int64
+City_Hughson,int64
+City_Hume,int64
+City_Huntington Beach,int64
+City_Huntington Park,int64
+City_Huron,int64
+City_Hyampom,int64
+City_Hydesville,int64
+City_Idyllwild,int64
+City_Igo,int64
+City_Imperial,int64
+City_Imperial Beach,int64
+City_Independence,int64
+City_Indian Wells,int64
+City_Indio,int64
+City_Inglewood,int64
+City_Inverness,int64
+City_Inyokern,int64
+City_Ione,int64
+City_Irvine,int64
+City_Isleton,int64
+City_Ivanhoe,int64
+City_Jackson,int64
+City_Jacumba,int64
+City_Jamestown,int64
+City_Jamul,int64
+City_Janesville,int64
+City_Jenner,int64
+City_Johannesburg,int64
+City_Jolon,int64
+City_Joshua Tree,int64
+City_Julian,int64
+City_Junction City,int64
+City_June Lake,int64
+City_Keeler,int64
+City_Keene,int64
+City_Kelseyville,int64
+City_Kenwood,int64
+City_Kerman,int64
+City_Kernville,int64
+City_Kettleman City,int64
+City_Keyes,int64
+City_King City,int64
+City_Kings Beach,int64
+City_Kingsburg,int64
+City_Kirkwood,int64
+City_Klamath,int64
+City_Klamath River,int64
+City_Kneeland,int64
+City_Knights Landing,int64
+City_Korbel,int64
+City_Kyburz,int64
+City_La Canada Flintridge,int64
+City_La Crescenta,int64
+City_La Grange,int64
+City_La Habra,int64
+City_La Honda,int64
+City_La Jolla,int64
+City_La Mesa,int64
+City_La Mirada,int64
+City_La Palma,int64
+City_La Puente,int64
+City_La Quinta,int64
+City_La Verne,int64
+City_Ladera Ranch,int64
+City_Lafayette,int64
+City_Laguna Beach,int64
+City_Laguna Hills,int64
+City_Laguna Niguel,int64
+City_Lagunitas,int64
+City_Lake Arrowhead,int64
+City_Lake City,int64
+City_Lake Elsinore,int64
+City_Lake Forest,int64
+City_Lake Hughes,int64
+City_Lake Isabella,int64
+City_Lakehead,int64
+City_Lakeport,int64
+City_Lakeshore,int64
+City_Lakeside,int64
+City_Lakewood,int64
+City_Lamont,int64
+City_Lancaster,int64
+City_Landers,int64
+City_Larkspur,int64
+City_Lathrop,int64
+City_Laton,int64
+City_Lawndale,int64
+City_Laytonville,int64
+City_Le Grand,int64
+City_Lebec,int64
+City_Lee Vining,int64
+City_Leggett,int64
+City_Lemon Cove,int64
+City_Lemon Grove,int64
+City_Lemoore,int64
+City_Lewiston,int64
+City_Likely,int64
+City_Lincoln,int64
+City_Linden,int64
+City_Lindsay,int64
+City_Litchfield,int64
+City_Little River,int64
+City_Littlerock,int64
+City_Live Oak,int64
+City_Livermore,int64
+City_Livingston,int64
+City_Llano,int64
+City_Lockeford,int64
+City_Lockwood,int64
+City_Lodi,int64
+City_Loleta,int64
+City_Loma Linda,int64
+City_Loma Mar,int64
+City_Lomita,int64
+City_Lompoc,int64
+City_Lone Pine,int64
+City_Long Barn,int64
+City_Long Beach,int64
+City_Lookout,int64
+City_Loomis,int64
+City_Los Alamitos,int64
+City_Los Alamos,int64
+City_Los Altos,int64
+City_Los Angeles,int64
+City_Los Banos,int64
+City_Los Gatos,int64
+City_Los Molinos,int64
+City_Los Olivos,int64
+City_Los Osos,int64
+City_Lost Hills,int64
+City_Lotus,int64
+City_Lower Lake,int64
+City_Loyalton,int64
+City_Lucerne,int64
+City_Lucerne Valley,int64
+City_Ludlow,int64
+City_Lynwood,int64
+City_Lytle Creek,int64
+City_Macdoel,int64
+City_Mad River,int64
+City_Madeline,int64
+City_Madera,int64
+City_Madison,int64
+City_Magalia,int64
+City_Malibu,int64
+City_Mammoth Lakes,int64
+City_Manchester,int64
+City_Manhattan Beach,int64
+City_Manteca,int64
+City_Manton,int64
+City_March Air Reserve Base,int64
+City_Maricopa,int64
+City_Marina,int64
+City_Marina Del Rey,int64
+City_Mariposa,int64
+City_Markleeville,int64
+City_Marshall,int64
+City_Martinez,int64
+City_Marysville,int64
+City_Mather,int64
+City_Maxwell,int64
+City_Maywood,int64
+City_Mc Farland,int64
+City_Mc Kittrick,int64
+City_Mcarthur,int64
+City_Mccloud,int64
+City_Mckinleyville,int64
+City_Meadow Valley,int64
+City_Meadow Vista,int64
+City_Mecca,int64
+City_Mendocino,int64
+City_Mendota,int64
+City_Menifee,int64
+City_Menlo Park,int64
+City_Mentone,int64
+City_Merced,int64
+City_Meridian,int64
+City_Mi Wuk Village,int64
+City_Middletown,int64
+City_Midpines,int64
+City_Midway City,int64
+City_Milford,int64
+City_Mill Creek,int64
+City_Mill Valley,int64
+City_Millbrae,int64
+City_Millville,int64
+City_Milpitas,int64
+City_Mineral,int64
+City_Mira Loma,int64
+City_Miramonte,int64
+City_Miranda,int64
+City_Mission Hills,int64
+City_Mission Viejo,int64
+City_Modesto,int64
+City_Mojave,int64
+City_Mokelumne Hill,int64
+City_Monrovia,int64
+City_Montague,int64
+City_Montara,int64
+City_Montclair,int64
+City_Monte Rio,int64
+City_Montebello,int64
+City_Monterey,int64
+City_Monterey Park,int64
+City_Montgomery Creek,int64
+City_Montrose,int64
+City_Moorpark,int64
+City_Moraga,int64
+City_Moreno Valley,int64
+City_Morgan Hill,int64
+City_Morongo Valley,int64
+City_Morro Bay,int64
+City_Moss Beach,int64
+City_Moss Landing,int64
+City_Mount Hamilton,int64
+City_Mount Hermon,int64
+City_Mount Laguna,int64
+City_Mount Shasta,int64
+City_Mountain Center,int64
+City_Mountain Ranch,int64
+City_Mountain View,int64
+City_Mt Baldy,int64
+City_Murphys,int64
+City_Murrieta,int64
+City_Myers Flat,int64
+City_Napa,int64
+City_National City,int64
+City_Navarro,int64
+City_Needles,int64
+City_Nevada City,int64
+City_New Cuyama,int64
+City_Newark,int64
+City_Newberry Springs,int64
+City_Newbury Park,int64
+City_Newcastle,int64
+City_Newhall,int64
+City_Newman,int64
+City_Newport Beach,int64
+City_Newport Coast,int64
+City_Nicasio,int64
+City_Nice,int64
+City_Nicolaus,int64
+City_Niland,int64
+City_Nipomo,int64
+City_Nipton,int64
+City_Norco,int64
+City_North Fork,int64
+City_North Highlands,int64
+City_North Hills,int64
+City_North Hollywood,int64
+City_North Palm Springs,int64
+City_North San Juan,int64
+City_Northridge,int64
+City_Norwalk,int64
+City_Novato,int64
+City_Nubieber,int64
+City_Nuevo,int64
+City_O Neals,int64
+City_Oak Park,int64
+City_Oak Run,int64
+City_Oak View,int64
+City_Oakdale,int64
+City_Oakhurst,int64
+City_Oakland,int64
+City_Oakley,int64
+City_Occidental,int64
+City_Oceano,int64
+City_Oceanside,int64
+City_Ocotillo,int64
+City_Ojai,int64
+City_Olancha,int64
+City_Old Station,int64
+City_Olema,int64
+City_Olivehurst,int64
+City_Olympic Valley,int64
+City_Ontario,int64
+City_Onyx,int64
+City_Orange,int64
+City_Orange Cove,int64
+City_Orangevale,int64
+City_Oregon House,int64
+City_Orick,int64
+City_Orinda,int64
+City_Orland,int64
+City_Orleans,int64
+City_Oro Grande,int64
+City_Orosi,int64
+City_Oroville,int64
+City_Oxnard,int64
+City_Pacific Grove,int64
+City_Pacific Palisades,int64
+City_Pacifica,int64
+City_Pacoima,int64
+City_Paicines,int64
+City_Pala,int64
+City_Palermo,int64
+City_Palm Desert,int64
+City_Palm Springs,int64
+City_Palmdale,int64
+City_Palo Alto,int64
+City_Palo Cedro,int64
+City_Palo Verde,int64
+City_Palomar Mountain,int64
+City_Palos Verdes Peninsula,int64
+City_Panorama City,int64
+City_Paradise,int64
+City_Paramount,int64
+City_Parker Dam,int64
+City_Parlier,int64
+City_Pasadena,int64
+City_Paskenta,int64
+City_Paso Robles,int64
+City_Patterson,int64
+City_Pauma Valley,int64
+City_Paynes Creek,int64
+City_Pearblossom,int64
+City_Pebble Beach,int64
+City_Penn Valley,int64
+City_Penngrove,int64
+City_Penryn,int64
+City_Perris,int64
+City_Pescadero,int64
+City_Petaluma,int64
+City_Petrolia,int64
+City_Phelan,int64
+City_Phillipsville,int64
+City_Philo,int64
+City_Pico Rivera,int64
+City_Piercy,int64
+City_Pilot Hill,int64
+City_Pine Grove,int64
+City_Pine Valley,int64
+City_Pinecrest,int64
+City_Pinole,int64
+City_Pinon Hills,int64
+City_Pioneer,int64
+City_Pioneertown,int64
+City_Piru,int64
+City_Pismo Beach,int64
+City_Pittsburg,int64
+City_Pixley,int64
+City_Placentia,int64
+City_Placerville,int64
+City_Planada,int64
+City_Platina,int64
+City_Playa Del Rey,int64
+City_Pleasant Grove,int64
+City_Pleasant Hill,int64
+City_Pleasanton,int64
+City_Plymouth,int64
+City_Point Arena,int64
+City_Point Reyes Station,int64
+City_Pollock Pines,int64
+City_Pomona,int64
+City_Pope Valley,int64
+City_Port Costa,int64
+City_Port Hueneme,int64
+City_Porter Ranch,int64
+City_Porterville,int64
+City_Portola,int64
+City_Portola Valley,int64
+City_Posey,int64
+City_Potrero,int64
+City_Potter Valley,int64
+City_Poway,int64
+City_Prather,int64
+City_Princeton,int64
+City_Quincy,int64
+City_Raisin City,int64
+City_Ramona,int64
+City_Ranchita,int64
+City_Rancho Cordova,int64
+City_Rancho Cucamonga,int64
+City_Rancho Mirage,int64
+City_Rancho Palos Verdes,int64
+City_Rancho Santa Fe,int64
+City_Rancho Santa Margarita,int64
+City_Randsburg,int64
+City_Ravendale,int64
+City_Raymond,int64
+City_Red Bluff,int64
+City_Redcrest,int64
+City_Redding,int64
+City_Redlands,int64
+City_Redondo Beach,int64
+City_Redway,int64
+City_Redwood City,int64
+City_Redwood Valley,int64
+City_Reedley,int64
+City_Rescue,int64
+City_Reseda,int64
+City_Rialto,int64
+City_Richgrove,int64
+City_Richmond,int64
+City_Richvale,int64
+City_Ridgecrest,int64
+City_Rio Dell,int64
+City_Rio Linda,int64
+City_Rio Nido,int64
+City_Rio Oso,int64
+City_Rio Vista,int64
+City_Ripon,int64
+City_River Pines,int64
+City_Riverbank,int64
+City_Riverdale,int64
+City_Riverside,int64
+City_Rocklin,int64
+City_Rodeo,int64
+City_Rohnert Park,int64
+City_Rosamond,int64
+City_Rosemead,int64
+City_Roseville,int64
+City_Rough And Ready,int64
+City_Round Mountain,int64
+City_Rowland Heights,int64
+City_Running Springs,int64
+City_Sacramento,int64
+City_Saint Helena,int64
+City_Salida,int64
+City_Salinas,int64
+City_Salton City,int64
+City_Salyer,int64
+City_Samoa,int64
+City_San Andreas,int64
+City_San Anselmo,int64
+City_San Ardo,int64
+City_San Bernardino,int64
+City_San Bruno,int64
+City_San Carlos,int64
+City_San Clemente,int64
+City_San Diego,int64
+City_San Dimas,int64
+City_San Fernando,int64
+City_San Francisco,int64
+City_San Gabriel,int64
+City_San Geronimo,int64
+City_San Gregorio,int64
+City_San Jacinto,int64
+City_San Joaquin,int64
+City_San Jose,int64
+City_San Juan Bautista,int64
+City_San Juan Capistrano,int64
+City_San Leandro,int64
+City_San Lorenzo,int64
+City_San Lucas,int64
+City_San Luis Obispo,int64
+City_San Marcos,int64
+City_San Marino,int64
+City_San Martin,int64
+City_San Mateo,int64
+City_San Miguel,int64
+City_San Pablo,int64
+City_San Pedro,int64
+City_San Quentin,int64
+City_San Rafael,int64
+City_San Ramon,int64
+City_San Simeon,int64
+City_San Ysidro,int64
+City_Sanger,int64
+City_Santa Ana,int64
+City_Santa Barbara,int64
+City_Santa Clara,int64
+City_Santa Clarita,int64
+City_Santa Cruz,int64
+City_Santa Fe Springs,int64
+City_Santa Margarita,int64
+City_Santa Maria,int64
+City_Santa Monica,int64
+City_Santa Paula,int64
+City_Santa Rosa,int64
+City_Santa Ynez,int64
+City_Santa Ysabel,int64
+City_Santee,int64
+City_Saratoga,int64
+City_Sausalito,int64
+City_Scotia,int64
+City_Scott Bar,int64
+City_Scotts Valley,int64
+City_Seal Beach,int64
+City_Seaside,int64
+City_Sebastopol,int64
+City_Seeley,int64
+City_Seiad Valley,int64
+City_Selma,int64
+City_Sequoia National Park,int64
+City_Shafter,int64
+City_Shandon,int64
+City_Shasta,int64
+City_Shasta Lake,int64
+City_Shaver Lake,int64
+City_Sheep Ranch,int64
+City_Sheridan,int64
+City_Sherman Oaks,int64
+City_Shingle Springs,int64
+City_Shingletown,int64
+City_Shoshone,int64
+City_Sierra City,int64
+City_Sierra Madre,int64
+City_Sierraville,int64
+City_Silverado,int64
+City_Simi Valley,int64
+City_Sloughhouse,int64
+City_Smartville,int64
+City_Smith River,int64
+City_Snelling,int64
+City_Soda Springs,int64
+City_Solana Beach,int64
+City_Soledad,int64
+City_Solvang,int64
+City_Somerset,int64
+City_Somes Bar,int64
+City_Somis,int64
+City_Sonoma,int64
+City_Sonora,int64
+City_Soquel,int64
+City_Soulsbyville,int64
+City_South Dos Palos,int64
+City_South El Monte,int64
+City_South Gate,int64
+City_South Lake Tahoe,int64
+City_South Pasadena,int64
+City_South San Francisco,int64
+City_Spreckels,int64
+City_Spring Valley,int64
+City_Springville,int64
+City_Squaw Valley,int64
+City_Standish,int64
+City_Stanford,int64
+City_Stanton,int64
+City_Stevenson Ranch,int64
+City_Stevinson,int64
+City_Stinson Beach,int64
+City_Stirling City,int64
+City_Stockton,int64
+City_Stonyford,int64
+City_Stratford,int64
+City_Strathmore,int64
+City_Strawberry Valley,int64
+City_Studio City,int64
+City_Sugarloaf,int64
+City_Suisun City,int64
+City_Sultana,int64
+City_Summerland,int64
+City_Sun City,int64
+City_Sun Valley,int64
+City_Sunland,int64
+City_Sunnyvale,int64
+City_Sunol,int64
+City_Sunset Beach,int64
+City_Surfside,int64
+City_Susanville,int64
+City_Sutter,int64
+City_Sutter Creek,int64
+City_Sylmar,int64
+City_Taft,int64
+City_Tahoe City,int64
+City_Tahoe Vista,int64
+City_Tahoma,int64
+City_Tarzana,int64
+City_Taylorsville,int64
+City_Tecate,int64
+City_Tecopa,int64
+City_Tehachapi,int64
+City_Tehama,int64
+City_Temecula,int64
+City_Temple City,int64
+City_Templeton,int64
+City_Termo,int64
+City_Terra Bella,int64
+City_The Sea Ranch,int64
+City_Thermal,int64
+City_Thornton,int64
+City_Thousand Oaks,int64
+City_Thousand Palms,int64
+City_Three Rivers,int64
+City_Tipton,int64
+City_Tollhouse,int64
+City_Tomales,int64
+City_Topanga,int64
+City_Topaz,int64
+City_Torrance,int64
+City_Trabuco Canyon,int64
+City_Tracy,int64
+City_Tranquillity,int64
+City_Traver,int64
+City_Travis Afb,int64
+City_Trinidad,int64
+City_Trinity Center,int64
+City_Trona,int64
+City_Truckee,int64
+City_Tujunga,int64
+City_Tulare,int64
+City_Tulelake,int64
+City_Tuolumne,int64
+City_Tupman,int64
+City_Turlock,int64
+City_Tustin,int64
+City_Twain,int64
+City_Twain Harte,int64
+City_Twentynine Palms,int64
+City_Twin Bridges,int64
+City_Ukiah,int64
+City_Union City,int64
+City_Upland,int64
+City_Upper Lake,int64
+City_Vacaville,int64
+City_Valencia,int64
+City_Vallecito,int64
+City_Vallejo,int64
+City_Valley Center,int64
+City_Valley Ford,int64
+City_Valley Springs,int64
+City_Valley Village,int64
+City_Valyermo,int64
+City_Van Nuys,int64
+City_Venice,int64
+City_Ventura,int64
+City_Vernalis,int64
+City_Victorville,int64
+City_Vidal,int64
+City_Villa Park,int64
+City_Vina,int64
+City_Visalia,int64
+City_Vista,int64
+City_Volcano,int64
+City_Wallace,int64
+City_Walnut,int64
+City_Walnut Creek,int64
+City_Walnut Grove,int64
+City_Warner Springs,int64
+City_Wasco,int64
+City_Washington,int64
+City_Waterford,int64
+City_Watsonville,int64
+City_Weaverville,int64
+City_Weed,int64
+City_Weimar,int64
+City_Weldon,int64
+City_Wendel,int64
+City_Weott,int64
+City_West Covina,int64
+City_West Hills,int64
+City_West Hollywood,int64
+City_West Point,int64
+City_West Sacramento,int64
+City_Westlake Village,int64
+City_Westley,int64
+City_Westminster,int64
+City_Westmorland,int64
+City_Westport,int64
+City_Westwood,int64
+City_Wheatland,int64
+City_White Water,int64
+City_Whitethorn,int64
+City_Whitmore,int64
+City_Whittier,int64
+City_Wildomar,int64
+City_Williams,int64
+City_Willits,int64
+City_Willow Creek,int64
+City_Willows,int64
+City_Wilmington,int64
+City_Wilseyville,int64
+City_Wilton,int64
+City_Winchester,int64
+City_Windsor,int64
+City_Winnetka,int64
+City_Winterhaven,int64
+City_Winters,int64
+City_Winton,int64
+City_Wishon,int64
+City_Witter Springs,int64
+City_Wofford Heights,int64
+City_Woodacre,int64
+City_Woodbridge,int64
+City_Woodlake,int64
+City_Woodland,int64
+City_Woodland Hills,int64
+City_Woody,int64
+City_Wrightwood,int64
+City_Yermo,int64
+City_Yorba Linda,int64
+City_Yorkville,int64
+City_Yosemite National Park,int64
+City_Yountville,int64
+City_Yreka,int64
+City_Yuba City,int64
+City_Yucaipa,int64
+City_Yucca Valley,int64
+City_Zenia,int64
+Gender_Male,int64
+Senior Citizen_Yes,int64
+Partner_Yes,int64
+Dependents_Yes,int64
+Phone Service_Yes,int64
+Multiple Lines_No phone service,int64
+Multiple Lines_Yes,int64
+Internet Service_Fiber optic,int64
+Internet Service_No,int64
+Online Security_No internet service,int64
+Online Security_Yes,int64
+Online Backup_No internet service,int64
+Online Backup_Yes,int64
+Device Protection_No internet service,int64
+Device Protection_Yes,int64
+Tech Support_No internet service,int64
+Tech Support_Yes,int64
+Streaming TV_No internet service,int64
+Streaming TV_Yes,int64
+Streaming Movies_No internet service,int64
+Streaming Movies_Yes,int64
+Contract_One year,int64
+Contract_Two year,int64
+Paperless Billing_Yes,int64
+Payment Method_Credit card (automatic),int64
+Payment Method_Electronic check,int64
+Payment Method_Mailed check,int64

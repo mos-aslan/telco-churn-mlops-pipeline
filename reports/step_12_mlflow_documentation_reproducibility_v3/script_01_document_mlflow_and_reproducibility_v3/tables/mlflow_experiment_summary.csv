@@ -1,0 +1,2 @@
+Experiment ID,Experiment Name,Artifact Location,Lifecycle Stage,Tracking URI,MLflow DB Path,MLruns Directory
+1,Telco_Churn_MLOps,file:///C:/Users/NezarHalabia/finallprogect/mlruns,active,sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db,C:\Users\NezarHalabia\finallprogect\mlflow.db,C:\Users\NezarHalabia\finallprogect\mlruns

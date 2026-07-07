@@ -1,0 +1,118 @@
+{
+    "step": "step_06_cross_validation_hyperparameter_tuning_v3",
+    "script": "script_01_cv_tuning_models_v3",
+    "timestamp": "2026-07-07 03:11:20",
+    "clean_previous_step6_outputs": true,
+    "clean_previous_step6_mlflow_runs": true,
+    "input_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v3\\telco_churn_v3_encoded_unscaled.csv",
+    "dataset_shape": {
+        "rows": 7043,
+        "columns": 53
+    },
+    "target_column": "Churn Value",
+    "feature_count": 52,
+    "cv_folds": 5,
+    "scoring": [
+        "accuracy",
+        "precision",
+        "recall",
+        "f1",
+        "roc_auc"
+    ],
+    "refit_metric": "f1",
+    "split_summary": [
+        {
+            "Split": "Train_Validation",
+            "Rows": 5634,
+            "Features": 52,
+            "Churn_0_Count": 4139,
+            "Churn_1_Count": 1495,
+            "Churn_1_Percentage": 26.54
+        },
+        {
+            "Split": "Test",
+            "Rows": 1409,
+            "Features": 52,
+            "Churn_0_Count": 1035,
+            "Churn_1_Count": 374,
+            "Churn_1_Percentage": 26.54
+        }
+    ],
+    "tuning_summary": [
+        {
+            "Dataset Version": "v3_encoded_unscaled",
+            "Model": "CatBoost",
+            "CV Folds": 5,
+            "Search Iterations": 15,
+            "Mean CV Accuracy": 0.770327,
+            "Mean CV Precision": 0.545082,
+            "Mean CV Recall": 0.815385,
+            "Mean CV F1-score": 0.653242,
+            "Std CV F1-score": 0.022425,
+            "Mean CV ROC-AUC": 0.865296,
+            "Std CV ROC-AUC": 0.011037,
+            "Best Parameters": "{\"learning_rate\": 0.01, \"l2_leaf_reg\": 7, \"iterations\": 500, \"depth\": 6}",
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\tuned_v3\\catboost_tuned_v3.joblib"
+        },
+        {
+            "Dataset Version": "v3_encoded_unscaled",
+            "Model": "XGBoost",
+            "CV Folds": 5,
+            "Search Iterations": 18,
+            "Mean CV Accuracy": 0.764824,
+            "Mean CV Precision": 0.537261,
+            "Mean CV Recall": 0.826087,
+            "Mean CV F1-score": 0.650873,
+            "Std CV F1-score": 0.017974,
+            "Mean CV ROC-AUC": 0.864231,
+            "Std CV ROC-AUC": 0.011623,
+            "Best Parameters": "{\"subsample\": 0.75, \"n_estimators\": 300, \"min_child_weight\": 5, \"max_depth\": 2, \"learning_rate\": 0.05, \"gamma\": 0, \"colsample_bytree\": 0.95}",
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\tuned_v3\\xgboost_tuned_v3.joblib"
+        },
+        {
+            "Dataset Version": "v3_encoded_unscaled",
+            "Model": "RandomForest",
+            "CV Folds": 5,
+            "Search Iterations": 15,
+            "Mean CV Accuracy": 0.772989,
+            "Mean CV Precision": 0.550209,
+            "Mean CV Recall": 0.796656,
+            "Mean CV F1-score": 0.650592,
+            "Std CV F1-score": 0.013489,
+            "Mean CV ROC-AUC": 0.862224,
+            "Std CV ROC-AUC": 0.009244,
+            "Best Parameters": "{\"n_estimators\": 500, \"min_samples_split\": 2, \"min_samples_leaf\": 4, \"max_features\": null, \"max_depth\": 6}",
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\tuned_v3\\randomforest_tuned_v3.joblib"
+        },
+        {
+            "Dataset Version": "v3_encoded_unscaled",
+            "Model": "LogisticRegression",
+            "CV Folds": 5,
+            "Search Iterations": 12,
+            "Mean CV Accuracy": 0.763937,
+            "Mean CV Precision": 0.536817,
+            "Mean CV Recall": 0.81204,
+            "Mean CV F1-score": 0.646124,
+            "Std CV F1-score": 0.018152,
+            "Mean CV ROC-AUC": 0.861156,
+            "Std CV ROC-AUC": 0.011487,
+            "Best Parameters": "{\"model__solver\": \"liblinear\", \"model__penalty\": \"l1\", \"model__C\": 0.05}",
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\tuned_v3\\logisticregression_tuned_v3.joblib"
+        }
+    ],
+    "best_tuned_model": "CatBoost",
+    "best_tuned_model_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\tuned_v3\\best_tuned_model_v3.joblib",
+    "test_results": {
+        "Dataset Version": "v3_encoded_unscaled",
+        "Model": "CatBoost",
+        "Split": "Test",
+        "Accuracy": 0.757984,
+        "Precision": 0.528998,
+        "Recall": 0.804813,
+        "F1-score": 0.638388,
+        "ROC-AUC": 0.857661,
+        "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\tuned_v3\\best_tuned_model_v3.joblib"
+    },
+    "mlflow_tracking_uri": "sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db",
+    "mlflow_artifact_location": "file:///C:/Users/NezarHalabia/finallprogect/mlruns"
+}

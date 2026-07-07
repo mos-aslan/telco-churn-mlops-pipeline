@@ -1,0 +1,7 @@
+================================================================================
+BATCH PREDICTION
+================================================================================
+Input: C:\Users\NezarHalabia\finallprogect\models\final_model\sample_input_features.csv
+Input type: features
+Rows predicted: 1
+Output saved: C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\tables\predict_csv_mode_sample_output.csv

@@ -1,0 +1,2 @@
+Dataset Version,Model,Split,Accuracy,Precision,Recall,F1-score,ROC-AUC,Model Path
+v3,CatBoost,Test,0.762952,0.538911,0.740642,0.623874,0.848914,C:\Users\NezarHalabia\finallprogect\models\baseline_v3\best_baseline_model_v3.joblib

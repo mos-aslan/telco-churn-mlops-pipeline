@@ -1,0 +1,30 @@
+STEP 5 - BASELINE MODEL TRAINING ON V3 DATASET
+
+Timestamp: 2026-07-07 02:49:12
+Input dataset: C:\Users\NezarHalabia\finallprogect\data\v3\telco_churn_v3.csv
+Dataset shape: (7043, 53)
+Target column: Churn Value
+Feature count: 52
+
+Split summary:
+     Split  Rows  Features  Churn_0_Count  Churn_1_Count  Churn_1_Percentage
+     Train  4225        52           3104           1121               26.53
+Validation  1409        52           1035            374               26.54
+      Test  1409        52           1035            374               26.54
+
+Validation results:
+Dataset Version              Model      Split  Accuracy  Precision   Recall  F1-score  ROC-AUC                                                                                   Model Path
+             v3           CatBoost Validation  0.780696   0.564103 0.764706  0.649262 0.855256           C:\Users\NezarHalabia\finallprogect\models\baseline_v3\catboost_baseline_v3.joblib
+             v3            XGBoost Validation  0.765791   0.540000 0.794118  0.642857 0.856075            C:\Users\NezarHalabia\finallprogect\models\baseline_v3\xgboost_baseline_v3.joblib
+             v3 LogisticRegression Validation  0.763662   0.537615 0.783422  0.637650 0.853530 C:\Users\NezarHalabia\finallprogect\models\baseline_v3\logisticregression_baseline_v3.joblib
+             v3       RandomForest Validation  0.794890   0.662835 0.462567  0.544882 0.840695       C:\Users\NezarHalabia\finallprogect\models\baseline_v3\randomforest_baseline_v3.joblib
+
+Best model: CatBoost
+Best model path: C:\Users\NezarHalabia\finallprogect\models\baseline_v3\best_baseline_model_v3.joblib
+
+Test results:
+Dataset Version    Model Split  Accuracy  Precision   Recall  F1-score  ROC-AUC                                                                           Model Path
+             v3 CatBoost  Test  0.762952   0.538911 0.740642  0.623874 0.848914 C:\Users\NezarHalabia\finallprogect\models\baseline_v3\best_baseline_model_v3.joblib
+
+MLflow tracking URI: sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db
+MLflow artifact location: file:///C:/Users/NezarHalabia/finallprogect/mlruns

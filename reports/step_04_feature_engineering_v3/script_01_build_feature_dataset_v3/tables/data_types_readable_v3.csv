@@ -1,0 +1,41 @@
+Column,Data Type in Readable v3
+Latitude,float64
+Longitude,float64
+Gender,object
+Senior Citizen,object
+Partner,object
+Dependents,object
+Tenure Months,int64
+Phone Service,object
+Multiple Lines,object
+Internet Service,object
+Online Security,object
+Online Backup,object
+Device Protection,object
+Tech Support,object
+Streaming TV,object
+Streaming Movies,object
+Contract,object
+Paperless Billing,object
+Payment Method,object
+Monthly Charges,float64
+Total Charges,float64
+Churn Value,int64
+CLTV,int64
+Tenure_Group,category
+Is_New_Customer,int64
+Is_Long_Term_Customer,int64
+Charges_Per_Tenure,float64
+Estimated_Total_Charges,float64
+High_Monthly_Charges,int64
+TotalCharges_to_MonthlyRatio,float64
+Contract_Risk_Level,int64
+Is_Month_To_Month,int64
+Is_Electronic_Check,int64
+Has_Internet_Service,int64
+Is_Fiber_Optic,int64
+Total_Services_Count,int64
+Protection_Support_Count,int64
+Streaming_Services_Count,int64
+No_Online_Security,int64
+No_Tech_Support,int64

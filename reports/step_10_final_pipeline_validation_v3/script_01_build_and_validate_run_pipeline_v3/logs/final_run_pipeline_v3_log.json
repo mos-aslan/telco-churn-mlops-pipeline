@@ -1,0 +1,40 @@
+{
+    "step": "step_10_final_pipeline_validation_v3",
+    "script": "script_01_build_and_validate_run_pipeline_v3",
+    "timestamp": "2026-07-07 03:48:06",
+    "run_pipeline_path": "C:\\Users\\NezarHalabia\\finallprogect\\run_pipeline.py",
+    "pipeline_usage_path": "C:\\Users\\NezarHalabia\\finallprogect\\PIPELINE_USAGE.md",
+    "validation_results": [
+        {
+            "Command Name": "check_project_readiness",
+            "Return Code": 0,
+            "Success": true,
+            "STDOUT Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\check_project_readiness_stdout.txt",
+            "STDERR Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\check_project_readiness_stderr.txt"
+        },
+        {
+            "Command Name": "describe_final_model",
+            "Return Code": 0,
+            "Success": true,
+            "STDOUT Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\describe_final_model_stdout.txt",
+            "STDERR Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\describe_final_model_stderr.txt"
+        },
+        {
+            "Command Name": "predict_sample",
+            "Return Code": 0,
+            "Success": true,
+            "STDOUT Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\predict_sample_stdout.txt",
+            "STDERR Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\predict_sample_stderr.txt"
+        }
+    ],
+    "predict_csv_validation": {
+        "Command Name": "predict_csv_mode_features_sample",
+        "Return Code": 0,
+        "Success": true,
+        "Input Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_model\\sample_input_features.csv",
+        "Output Path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\tables\\predict_csv_mode_sample_output.csv",
+        "STDOUT Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\predict_csv_mode_stdout.txt",
+        "STDERR Log": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_10_final_pipeline_validation_v3\\script_01_build_and_validate_run_pipeline_v3\\logs\\predict_csv_mode_stderr.txt"
+    },
+    "project_root": "C:\\Users\\NezarHalabia\\finallprogect"
+}

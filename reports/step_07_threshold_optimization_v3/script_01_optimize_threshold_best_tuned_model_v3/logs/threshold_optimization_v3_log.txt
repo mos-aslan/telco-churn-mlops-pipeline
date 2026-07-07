@@ -1,0 +1,23 @@
+STEP 7 - THRESHOLD OPTIMIZATION FOR FINAL TUNED MODEL
+
+Timestamp: 2026-07-07 03:31:34
+Input dataset: C:\Users\NezarHalabia\finallprogect\data\v3\telco_churn_v3_encoded_unscaled.csv
+Best model name: CatBoost
+Best model path: C:\Users\NezarHalabia\finallprogect\models\tuned_v3\best_tuned_model_v3.joblib
+Split source: C:\Users\NezarHalabia\finallprogect\reports\step_06_cross_validation_hyperparameter_tuning_v3\script_01_cv_tuning_models_v3\logs\cv_split_indices_v3.json
+OOF ROC-AUC: 0.864365
+
+Selected threshold summary:
+                                                                         Selection Rule  Selected Threshold  OOF Accuracy  OOF Precision  OOF Recall  OOF F1-score  OOF ROC-AUC  OOF Specificity  OOF FP  OOF FN  OOF TP  OOF TN
+Max OOF F1-score; if within 0.005 of max F1, prefer higher Recall then higher Precision                 0.5      0.770323       0.544926    0.815385      0.653269     0.864365         0.754047    1018     276    1219    3121
+
+Test comparison:
+   Model Threshold Type  Threshold  Accuracy  Precision   Recall  F1-score  ROC-AUC  Specificity  False Positive Rate  False Negative Rate  TN  FP  FN  TP
+CatBoost        Default        0.5  0.757984   0.528998 0.804813  0.638388 0.857661     0.741063             0.258937             0.195187 767 268  73 301
+CatBoost      Optimized        0.5  0.757984   0.528998 0.804813  0.638388 0.857661     0.741063             0.258937             0.195187 767 268  73 301
+
+Final candidate model path: C:\Users\NezarHalabia\finallprogect\models\final_candidate_v3\final_candidate_model_v3.joblib
+Final candidate metadata path: C:\Users\NezarHalabia\finallprogect\models\final_candidate_v3\final_candidate_metadata_v3.json
+
+MLflow tracking URI: sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db
+MLflow artifact location: file:///C:/Users/NezarHalabia/finallprogect/mlruns

@@ -1,0 +1,93 @@
+{
+    "step": "step_04_feature_engineering_v3",
+    "script": "script_01_build_feature_dataset_v3",
+    "timestamp": "2026-07-07 02:32:55",
+    "input_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v2\\telco_churn_v2_readable.csv",
+    "output_readable_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v3\\telco_churn_v3_readable.csv",
+    "output_encoded_unscaled_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v3\\telco_churn_v3_encoded_unscaled.csv",
+    "output_final_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v3\\telco_churn_v3.csv",
+    "created_features": {
+        "Tenure_Group": "Customer tenure grouped into four meaningful ranges.",
+        "Is_New_Customer": "Binary flag for customers with tenure <= 12 months.",
+        "Is_Long_Term_Customer": "Binary flag for customers with tenure >= 48 months.",
+        "Charges_Per_Tenure": "Monthly charges divided by tenure plus one.",
+        "Estimated_Total_Charges": "Monthly charges multiplied by tenure months.",
+        "High_Monthly_Charges": "Binary flag for monthly charges above the dataset median.",
+        "TotalCharges_to_MonthlyRatio": "Ratio of total charges to monthly charges.",
+        "Contract_Risk_Level": "Ordinal risk level based on contract type.",
+        "Is_Month_To_Month": "Binary flag for month-to-month contracts.",
+        "Is_Electronic_Check": "Binary flag for electronic check payment method.",
+        "Has_Internet_Service": "Binary flag for customers with any internet service.",
+        "Is_Fiber_Optic": "Binary flag for fiber optic internet service.",
+        "Total_Services_Count": "Total count of active customer services.",
+        "Protection_Support_Count": "Count of security, backup, protection, and support services.",
+        "Streaming_Services_Count": "Count of active streaming services.",
+        "No_Online_Security": "Binary flag for absence of online security.",
+        "No_Tech_Support": "Binary flag for absence of technical support."
+    },
+    "removed_columns_v3": {
+        "City": "High-cardinality categorical column that causes excessive one-hot expansion.",
+        "Zip Code": "Pseudo-numeric geographic identifier; Latitude and Longitude are retained instead."
+    },
+    "categorical_columns_encoded": [
+        "Gender",
+        "Senior Citizen",
+        "Partner",
+        "Dependents",
+        "Phone Service",
+        "Multiple Lines",
+        "Internet Service",
+        "Online Security",
+        "Online Backup",
+        "Device Protection",
+        "Tech Support",
+        "Streaming TV",
+        "Streaming Movies",
+        "Contract",
+        "Paperless Billing",
+        "Payment Method",
+        "Tenure_Group"
+    ],
+    "scaled_columns": [
+        "Latitude",
+        "Longitude",
+        "Tenure Months",
+        "Monthly Charges",
+        "Total Charges",
+        "CLTV",
+        "Charges_Per_Tenure",
+        "Estimated_Total_Charges",
+        "TotalCharges_to_MonthlyRatio",
+        "Total_Services_Count",
+        "Protection_Support_Count",
+        "Streaming_Services_Count",
+        "Contract_Risk_Level"
+    ],
+    "shapes": [
+        {
+            "Dataset Version": "v2_readable",
+            "Rows": 7043,
+            "Columns": 25
+        },
+        {
+            "Dataset Version": "v3_readable_feature_engineered",
+            "Rows": 7043,
+            "Columns": 40
+        },
+        {
+            "Dataset Version": "v3_encoded_unscaled",
+            "Rows": 7043,
+            "Columns": 53
+        },
+        {
+            "Dataset Version": "v3_final_scaled",
+            "Rows": 7043,
+            "Columns": 53
+        }
+    ],
+    "validation": {
+        "target_column_exists": true,
+        "missing_values_in_final_v3": 0,
+        "non_numeric_predictors": []
+    }
+}

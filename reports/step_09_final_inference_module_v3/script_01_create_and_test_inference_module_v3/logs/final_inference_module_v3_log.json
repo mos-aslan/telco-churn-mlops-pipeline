@@ -1,0 +1,20 @@
+{
+    "step": "step_09_final_inference_module_v3",
+    "script": "script_01_create_and_test_inference_module_v3",
+    "timestamp": "2026-07-07 03:40:23",
+    "model_name": "CatBoost",
+    "decision_threshold": 0.5,
+    "feature_count": 52,
+    "inference_module_path": "C:\\Users\\NezarHalabia\\finallprogect\\src\\inference.py",
+    "example_script_path": "C:\\Users\\NezarHalabia\\finallprogect\\run_final_inference_example.py",
+    "final_model_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_model\\final_model.joblib",
+    "test_metrics": {
+        "Accuracy": 0.7579843860894251,
+        "Precision": 0.5289982425307557,
+        "Recall": 0.8048128342245989,
+        "F1-score": 0.6383881230116649,
+        "ROC-AUC": 0.8576610090676586
+    },
+    "mlflow_tracking_uri": "sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db",
+    "mlflow_artifact_location": "file:///C:/Users/NezarHalabia/finallprogect/mlruns"
+}

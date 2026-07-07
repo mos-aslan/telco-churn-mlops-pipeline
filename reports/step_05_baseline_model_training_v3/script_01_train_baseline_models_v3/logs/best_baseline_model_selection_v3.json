@@ -1,0 +1,16 @@
+{
+    "selection_rule": "Highest validation F1-score, then highest validation ROC-AUC",
+    "best_model": "CatBoost",
+    "best_model_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\best_baseline_model_v3.joblib",
+    "selected_from": {
+        "Dataset Version": "v3",
+        "Model": "CatBoost",
+        "Split": "Validation",
+        "Accuracy": 0.780696,
+        "Precision": 0.564103,
+        "Recall": 0.764706,
+        "F1-score": 0.649262,
+        "ROC-AUC": 0.855256,
+        "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\catboost_baseline_v3.joblib"
+    }
+}

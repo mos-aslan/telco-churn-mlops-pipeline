@@ -1,0 +1,5 @@
+Tenure_Group,Total Customers,Churned Customers,Churn Rate (%)
+0_12_months,2186,1037,47.44
+13_24_months,1024,294,28.71
+25_48_months,1594,325,20.39
+49_72_months,2239,213,9.51

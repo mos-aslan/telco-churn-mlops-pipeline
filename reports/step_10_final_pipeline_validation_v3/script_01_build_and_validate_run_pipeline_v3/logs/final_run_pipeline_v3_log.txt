@@ -1,0 +1,15 @@
+STEP 10 - BUILD AND VALIDATE FINAL RUN PIPELINE
+
+Timestamp: 2026-07-07 03:48:06
+run_pipeline.py path: C:\Users\NezarHalabia\finallprogect\run_pipeline.py
+PIPELINE_USAGE.md path: C:\Users\NezarHalabia\finallprogect\PIPELINE_USAGE.md
+
+Validation results:
+           Command Name  Return Code  Success                                                                                                                                                            STDOUT Log                                                                                                                                                            STDERR Log
+check_project_readiness            0     True C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\check_project_readiness_stdout.txt C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\check_project_readiness_stderr.txt
+   describe_final_model            0     True    C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\describe_final_model_stdout.txt    C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\describe_final_model_stderr.txt
+         predict_sample            0     True          C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\predict_sample_stdout.txt          C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\predict_sample_stderr.txt
+
+Predict CSV validation:
+                    Command Name  Return Code  Success                                                                       Input Path                                                                                                                                                             Output Path                                                                                                                                                     STDOUT Log                                                                                                                                                     STDERR Log
+predict_csv_mode_features_sample            0     True C:\Users\NezarHalabia\finallprogect\models\final_model\sample_input_features.csv C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\tables\predict_csv_mode_sample_output.csv C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\predict_csv_mode_stdout.txt C:\Users\NezarHalabia\finallprogect\reports\step_10_final_pipeline_validation_v3\script_01_build_and_validate_run_pipeline_v3\logs\predict_csv_mode_stderr.txt

@@ -1,0 +1,5 @@
+Dataset Version,Model,Split,Accuracy,Precision,Recall,F1-score,ROC-AUC,Model Path
+v3,CatBoost,Validation,0.780696,0.564103,0.764706,0.649262,0.855256,C:\Users\NezarHalabia\finallprogect\models\baseline_v3\catboost_baseline_v3.joblib
+v3,XGBoost,Validation,0.765791,0.54,0.794118,0.642857,0.856075,C:\Users\NezarHalabia\finallprogect\models\baseline_v3\xgboost_baseline_v3.joblib
+v3,LogisticRegression,Validation,0.763662,0.537615,0.783422,0.63765,0.85353,C:\Users\NezarHalabia\finallprogect\models\baseline_v3\logisticregression_baseline_v3.joblib
+v3,RandomForest,Validation,0.79489,0.662835,0.462567,0.544882,0.840695,C:\Users\NezarHalabia\finallprogect\models\baseline_v3\randomforest_baseline_v3.joblib

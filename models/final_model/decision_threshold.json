@@ -1,0 +1,5 @@
+{
+    "decision_threshold": 0.5,
+    "model_name": "CatBoost",
+    "dataset_version": "v3_encoded_unscaled"
+}

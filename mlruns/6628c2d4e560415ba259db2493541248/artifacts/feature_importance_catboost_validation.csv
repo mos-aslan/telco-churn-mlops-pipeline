@@ -1,0 +1,53 @@
+Feature,Importance
+Dependents_Yes,12.397770846203768
+Contract_Risk_Level,8.074941935479591
+Latitude,7.493289332759298
+CLTV,7.473020182351633
+Charges_Per_Tenure,6.594526853361565
+Longitude,5.879718140126093
+Monthly Charges,4.980496940606722
+TotalCharges_to_MonthlyRatio,3.536022998836107
+Tenure Months,3.4738284242737416
+Internet Service_Fiber optic,2.932672046501168
+Estimated_Total_Charges,2.913747524574734
+Total Charges,2.753471741980022
+Protection_Support_Count,2.329441516003176
+Streaming_Services_Count,2.0604941841995448
+Paperless Billing_Yes,1.9560430673051696
+Is_Month_To_Month,1.9493145287441656
+Multiple Lines_Yes,1.9005422850059925
+Contract_Two year,1.7853807315452994
+Partner_Yes,1.6345474491556966
+Total_Services_Count,1.572957082981138
+No_Online_Security,1.4708898099669194
+No_Tech_Support,1.3160843693249045
+Payment Method_Electronic check,1.169964876942009
+Payment Method_Credit card (automatic),0.9784482907765867
+Gender_Male,0.953544349237604
+Online Security_Yes,0.9419782102363229
+Payment Method_Mailed check,0.8693076880996022
+Online Backup_Yes,0.8533677885129091
+Is_Electronic_Check,0.782775590915795
+Tech Support_Yes,0.7205987049450929
+Multiple Lines_No phone service,0.6403394155844725
+Contract_One year,0.5311133301582932
+Device Protection_Yes,0.5187333059442515
+Streaming TV_Yes,0.5143343525162414
+Tenure_Group_13_24_months,0.4599158343193688
+Is_Fiber_Optic,0.44844726117486106
+Senior Citizen_Yes,0.4015760867143156
+Streaming Movies_Yes,0.36530840190747654
+Phone Service_Yes,0.3641465523079455
+Tenure_Group_25_48_months,0.3515290501151995
+High_Monthly_Charges,0.2589826134236729
+Streaming TV_No internet service,0.22331578792442885
+Has_Internet_Service,0.2209745945202306
+Is_Long_Term_Customer,0.1882478859767017
+Online Backup_No internet service,0.1626314892983916
+Online Security_No internet service,0.1457662146712576
+Tech Support_No internet service,0.1343613578577435
+Tenure_Group_49_72_months,0.10725245320417517
+Is_New_Customer,0.0961119662039368
+Internet Service_No,0.059823748170681264
+Device Protection_No internet service,0.03457605128355792
+Streaming Movies_No internet service,0.02332475577043119

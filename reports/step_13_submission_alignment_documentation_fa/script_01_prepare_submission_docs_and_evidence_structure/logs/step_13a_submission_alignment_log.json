@@ -1,0 +1,19 @@
+{
+    "step": "step_13_submission_alignment_documentation_fa",
+    "script": "script_01_prepare_submission_docs_and_evidence_structure",
+    "timestamp": "2026-07-07 07:23:28",
+    "readme_path": "C:\\Users\\NezarHalabia\\finallprogect\\README.md",
+    "project_structure_path": "C:\\Users\\NezarHalabia\\finallprogect\\PROJECT_STRUCTURE.md",
+    "checklist_path": "C:\\Users\\NezarHalabia\\finallprogect\\SUBMISSION_CHECKLIST.md",
+    "evidence_readme_path": "C:\\Users\\NezarHalabia\\finallprogect\\evidence\\README_EVIDENCE_FA.md",
+    "git_guide_path": "C:\\Users\\NezarHalabia\\finallprogect\\GIT_SUBMISSION_GUIDE_FA.md",
+    "report_outline_path": "C:\\Users\\NezarHalabia\\finallprogect\\FINAL_REPORT_OUTLINE_FA.md",
+    "package_plan_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_submission_alignment_documentation_fa\\script_01_prepare_submission_docs_and_evidence_structure\\tables\\lms_zip_package_plan.csv",
+    "structure_check_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_submission_alignment_documentation_fa\\script_01_prepare_submission_docs_and_evidence_structure\\tables\\submission_required_structure_check.csv",
+    "alignment_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_submission_alignment_documentation_fa\\script_01_prepare_submission_docs_and_evidence_structure\\tables\\instructor_requirement_alignment.csv",
+    "selected_assets_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_submission_alignment_documentation_fa\\script_01_prepare_submission_docs_and_evidence_structure\\tables\\selected_final_report_assets.csv",
+    "final_model": "CatBoost",
+    "dataset_version": "v3_encoded_unscaled",
+    "f1_score": 0.6383881230116649,
+    "roc_auc": 0.8576610090676586
+}

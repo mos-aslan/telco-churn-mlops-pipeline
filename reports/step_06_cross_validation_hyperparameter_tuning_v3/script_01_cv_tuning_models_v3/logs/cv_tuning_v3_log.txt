@@ -1,0 +1,33 @@
+STEP 6 - CROSS-VALIDATION AND HYPERPARAMETER TUNING
+
+Timestamp: 2026-07-07 03:11:20
+Clean previous Step 6 outputs: True
+Clean previous Step 6 MLflow runs: True
+Input dataset: C:\Users\NezarHalabia\finallprogect\data\v3\telco_churn_v3_encoded_unscaled.csv
+Dataset shape: (7043, 53)
+Target column: Churn Value
+Feature count: 52
+CV folds: 5
+Refit metric: f1
+
+Split summary:
+           Split  Rows  Features  Churn_0_Count  Churn_1_Count  Churn_1_Percentage
+Train_Validation  5634        52           4139           1495               26.54
+            Test  1409        52           1035            374               26.54
+
+Tuning summary:
+    Dataset Version              Model  CV Folds  Search Iterations  Mean CV Accuracy  Mean CV Precision  Mean CV Recall  Mean CV F1-score  Std CV F1-score  Mean CV ROC-AUC  Std CV ROC-AUC                                                                                                                              Best Parameters                                                                             Model Path
+v3_encoded_unscaled           CatBoost         5                 15          0.770327           0.545082        0.815385          0.653242         0.022425         0.865296        0.011037                                                                     {"learning_rate": 0.01, "l2_leaf_reg": 7, "iterations": 500, "depth": 6}           C:\Users\NezarHalabia\finallprogect\models\tuned_v3\catboost_tuned_v3.joblib
+v3_encoded_unscaled            XGBoost         5                 18          0.764824           0.537261        0.826087          0.650873         0.017974         0.864231        0.011623 {"subsample": 0.75, "n_estimators": 300, "min_child_weight": 5, "max_depth": 2, "learning_rate": 0.05, "gamma": 0, "colsample_bytree": 0.95}            C:\Users\NezarHalabia\finallprogect\models\tuned_v3\xgboost_tuned_v3.joblib
+v3_encoded_unscaled       RandomForest         5                 15          0.772989           0.550209        0.796656          0.650592         0.013489         0.862224        0.009244                                   {"n_estimators": 500, "min_samples_split": 2, "min_samples_leaf": 4, "max_features": null, "max_depth": 6}       C:\Users\NezarHalabia\finallprogect\models\tuned_v3\randomforest_tuned_v3.joblib
+v3_encoded_unscaled LogisticRegression         5                 12          0.763937           0.536817        0.812040          0.646124         0.018152         0.861156        0.011487                                                                     {"model__solver": "liblinear", "model__penalty": "l1", "model__C": 0.05} C:\Users\NezarHalabia\finallprogect\models\tuned_v3\logisticregression_tuned_v3.joblib
+
+Best tuned model: CatBoost
+Best tuned model path: C:\Users\NezarHalabia\finallprogect\models\tuned_v3\best_tuned_model_v3.joblib
+
+Final test results:
+    Dataset Version    Model Split  Accuracy  Precision   Recall  F1-score  ROC-AUC                                                                     Model Path
+v3_encoded_unscaled CatBoost  Test  0.757984   0.528998 0.804813  0.638388 0.857661 C:\Users\NezarHalabia\finallprogect\models\tuned_v3\best_tuned_model_v3.joblib
+
+MLflow tracking URI: sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db
+MLflow artifact location: file:///C:/Users/NezarHalabia/finallprogect/mlruns

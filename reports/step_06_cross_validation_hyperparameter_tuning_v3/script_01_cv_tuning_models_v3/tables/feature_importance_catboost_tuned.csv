@@ -1,0 +1,53 @@
+Feature,Importance
+Dependents_Yes,22.744867428025948
+Contract_Risk_Level,8.664167963580974
+Charges_Per_Tenure,7.982920625416412
+Is_Month_To_Month,4.8664364086157965
+Internet Service_Fiber optic,3.6721255247659568
+Monthly Charges,3.0580800352003816
+Tenure Months,3.0416472535710968
+Longitude,2.8428109066803797
+Latitude,2.7927894203607497
+CLTV,2.760242689899374
+Streaming_Services_Count,2.6472367456306762
+Payment Method_Electronic check,2.6171121189747204
+Paperless Billing_Yes,2.5601151174478876
+No_Online_Security,2.5456708518454674
+Is_Fiber_Optic,2.5338213668401934
+TotalCharges_to_MonthlyRatio,2.5290952203520267
+Contract_Two year,2.2017578702877536
+No_Tech_Support,2.0139475257371844
+Total Charges,1.8390709132071728
+Protection_Support_Count,1.6661859189830635
+Estimated_Total_Charges,1.652203741566712
+Partner_Yes,1.323192022410092
+Total_Services_Count,1.1303435492456841
+Multiple Lines_Yes,0.9218980753627539
+Is_Electronic_Check,0.6315654272839867
+Contract_One year,0.6147739682609699
+Streaming TV_Yes,0.6065093642790705
+Gender_Male,0.5371893492809315
+Online Security_Yes,0.5037534591863138
+Payment Method_Credit card (automatic),0.4841897274478111
+Phone Service_Yes,0.4619234834609632
+Online Backup_Yes,0.4555685383930891
+Tenure_Group_49_72_months,0.43962279155610345
+Streaming Movies_Yes,0.42537495818056187
+High_Monthly_Charges,0.36975525355165023
+Payment Method_Mailed check,0.34906206692505276
+Tech Support_Yes,0.31927597522817497
+Multiple Lines_No phone service,0.31873923857840486
+Device Protection_No internet service,0.3068480864303256
+Streaming Movies_No internet service,0.2935449225401792
+Online Backup_No internet service,0.2690436840276569
+Senior Citizen_Yes,0.263050739144854
+Device Protection_Yes,0.2607426580605046
+Internet Service_No,0.25507272533246
+Is_New_Customer,0.25281925495795166
+Tenure_Group_25_48_months,0.18792352981876245
+Streaming TV_No internet service,0.17222189179815992
+Online Security_No internet service,0.14647958031079708
+Has_Internet_Service,0.13533981331263467
+Tenure_Group_13_24_months,0.12792446477168012
+Tech Support_No internet service,0.10439427244783071
+Is_Long_Term_Customer,0.0995514814246864

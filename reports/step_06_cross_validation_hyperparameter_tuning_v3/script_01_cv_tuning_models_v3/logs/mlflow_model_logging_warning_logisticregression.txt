@@ -1,0 +1,7 @@
+MLflow model flavor logging failed for: LogisticRegression
+
+This does not invalidate the experiment.
+The trained model was already saved as a .joblib file and logged as an artifact.
+
+Error message:
+cannot access local variable 'mlflow' where it is not associated with a value

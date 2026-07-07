@@ -1,0 +1,15 @@
+{
+    "step": "step_11_docker_packaging_validation_v3_light",
+    "script": "script_01_create_and_validate_lightweight_docker_package_v3",
+    "timestamp": "2026-07-07 06:20:32",
+    "image_tag": "telco-churn-mlops:v3-light",
+    "dockerfile_path": "C:\\Users\\NezarHalabia\\finallprogect\\Dockerfile",
+    "dockerignore_path": "C:\\Users\\NezarHalabia\\finallprogect\\.dockerignore",
+    "requirements_docker_path": "C:\\Users\\NezarHalabia\\finallprogect\\requirements_docker.txt",
+    "docker_usage_path": "C:\\Users\\NezarHalabia\\finallprogect\\DOCKER_USAGE.md",
+    "docker_command_available": true,
+    "docker_daemon_ready": true,
+    "all_commands_successful_including_optional_cleanup": true,
+    "all_meaningful_validation_commands_successful": true,
+    "command_results_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_11_docker_packaging_validation_v3_light\\script_01_create_and_validate_lightweight_docker_package_v3\\tables\\docker_light_command_results.csv"
+}

@@ -1,0 +1,26 @@
+================================================================================
+FINAL MODEL DESCRIPTION
+================================================================================
+{
+    "model_name": "CatBoost",
+    "model_status": "final_champion_model",
+    "dataset_version": "v3_encoded_unscaled",
+    "decision_threshold": 0.5,
+    "feature_count": 52,
+    "champion_test_metrics": {
+        "Candidate": "Threshold-Optimized Tuned Model",
+        "Source Step": "Step 7",
+        "Model": "CatBoost",
+        "Threshold Type": "Optimized",
+        "Threshold": 0.5,
+        "Accuracy": 0.7579843860894251,
+        "Precision": 0.5289982425307557,
+        "Recall": 0.8048128342245989,
+        "F1-score": 0.6383881230116649,
+        "ROC-AUC": 0.8576610090676586,
+        "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_candidate_v3\\final_candidate_model_v3.joblib"
+    },
+    "final_model_path": "/app/models/final_model/final_model.joblib"
+}
+
+Description saved: /app/reports/final_pipeline_runs/final_model_description.json

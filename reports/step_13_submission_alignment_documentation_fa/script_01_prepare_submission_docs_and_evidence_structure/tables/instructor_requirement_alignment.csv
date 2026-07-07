@@ -1,0 +1,10 @@
+Instructor Requirement,Project Evidence,Status
+ایجاد Git Repository، Commitهای منظم و Push,پوشه evidence/github_screenshots برای تصویر Repository، Commit History و Push آماده شد. اجرای Git در گام بعد انجام می‌شود.,Needs GitHub screenshots after push
+"ساختار data/v1, data/v2, data/v3",پوشه‌های data/v1، data/v2 و data/v3 موجود هستند و نسخه‌های داده در آنها ذخیره شده‌اند.,Completed
+"ساختار src شامل data_loader, preprocessing, features, train, evaluate, mlflow_utils",فایل‌های اصلی src مطابق ساختار خواسته‌شده وجود دارند.,Completed
+ایجاد run_pipeline.py,فایل run_pipeline.py ایجاد و در Step 10 اعتبارسنجی شده است.,Completed
+ثبت آزمایش‌ها، مدل‌ها و نتایج در MLflow,mlflow.db، mlruns و MLFLOW_USAGE.md موجود هستند. Step 12 خلاصه آزمایش‌ها و خروجی‌های MLflow را ایجاد کرده است.,Completed
+استقرار مدل نهایی با Docker,Dockerfile، requirements_docker.txt و DOCKER_USAGE.md موجود هستند. Docker image سبک telco-churn-mlops:v3-light با موفقیت ساخته و اجرا شده است.,Completed
+README شامل معرفی پروژه، نصب، اجرای Pipeline، آموزش مدل، استقرار و استفاده,README.md فارسی و مطابق ساختار خواسته‌شده در این گام بازنویسی می‌شود.,Completed in this step
+Clean Code و ماژولار بودن,کدها در src ماژولار شده‌اند و فایل‌های جداگانه برای loading، preprocessing، features، training، evaluation و MLflow وجود دارد.,Completed
+"Documentation شامل preprocessing, Feature Engineering, dataset versions, models, parameters, results, MLflow screenshots, GitHub screenshots, commits, conclusion",چارچوب Documentation و پوشه evidence ساخته شد. گزارش Word نهایی در گام آخر نوشته می‌شود.,Prepared; final Word report remains

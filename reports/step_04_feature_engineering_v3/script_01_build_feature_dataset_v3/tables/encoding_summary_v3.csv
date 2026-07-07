@@ -1,0 +1,18 @@
+Categorical Column Encoded,Encoding Method
+Gender,One-Hot Encoding with drop_first=True
+Senior Citizen,One-Hot Encoding with drop_first=True
+Partner,One-Hot Encoding with drop_first=True
+Dependents,One-Hot Encoding with drop_first=True
+Phone Service,One-Hot Encoding with drop_first=True
+Multiple Lines,One-Hot Encoding with drop_first=True
+Internet Service,One-Hot Encoding with drop_first=True
+Online Security,One-Hot Encoding with drop_first=True
+Online Backup,One-Hot Encoding with drop_first=True
+Device Protection,One-Hot Encoding with drop_first=True
+Tech Support,One-Hot Encoding with drop_first=True
+Streaming TV,One-Hot Encoding with drop_first=True
+Streaming Movies,One-Hot Encoding with drop_first=True
+Contract,One-Hot Encoding with drop_first=True
+Paperless Billing,One-Hot Encoding with drop_first=True
+Payment Method,One-Hot Encoding with drop_first=True
+Tenure_Group,One-Hot Encoding with drop_first=True

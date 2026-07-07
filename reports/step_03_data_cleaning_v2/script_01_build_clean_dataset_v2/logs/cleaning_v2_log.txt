@@ -1,0 +1,54 @@
+STEP 3 - BUILD CLEAN DATASET VERSION V2
+
+Timestamp: 2026-07-07 02:27:21
+Input dataset: C:\Users\NezarHalabia\finallprogect\data\v1\Telco_customer_churn.xlsx
+Output readable dataset: C:\Users\NezarHalabia\finallprogect\data\v2\telco_churn_v2_readable.csv
+Output encoded dataset: C:\Users\NezarHalabia\finallprogect\data\v2\telco_churn_v2.csv
+
+Raw shape: (7043, 33)
+Readable v2 shape: (7043, 25)
+Encoded v2 shape: (7043, 1163)
+
+Removed columns and reasons:
+- CustomerID: Unique customer identifier; not useful as a general predictive feature.
+- Count: Constant column with no variance.
+- Country: Constant or non-informative geographic column for this dataset.
+- State: Constant or non-informative geographic column for this dataset.
+- Lat Long: Textual coordinate representation; redundant with Latitude and Longitude.
+- Churn Label: Direct textual duplicate of the target variable; causes target leakage.
+- Churn Score: Precomputed churn-related score; high risk of target leakage.
+- Churn Reason: Post-churn explanation available only for churned customers; causes target leakage.
+
+Total Charges conversion:
+{
+    "column": "Total Charges",
+    "dtype_before": "object",
+    "dtype_after": "float64",
+    "invalid_or_missing_after_numeric_conversion": 11,
+    "imputation_strategy": "median",
+    "median_value_used": 1397.475
+}
+
+Categorical columns encoded:
+- City
+- Gender
+- Senior Citizen
+- Partner
+- Dependents
+- Phone Service
+- Multiple Lines
+- Internet Service
+- Online Security
+- Online Backup
+- Device Protection
+- Tech Support
+- Streaming TV
+- Streaming Movies
+- Contract
+- Paperless Billing
+- Payment Method
+
+Final validation:
+- Target column exists: True
+- Missing values in final encoded dataset: 0
+- Non-numeric predictors: []

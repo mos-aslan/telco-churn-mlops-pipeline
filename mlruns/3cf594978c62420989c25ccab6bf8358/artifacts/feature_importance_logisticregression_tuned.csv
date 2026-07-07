@@ -1,0 +1,53 @@
+Feature,Importance
+Contract_Risk_Level,0.6378011951361193
+Dependents_Yes,0.6228585311423016
+TotalCharges_to_MonthlyRatio,0.3660569547861608
+Internet Service_Fiber optic,0.33623010392772995
+Charges_Per_Tenure,0.3231062866146119
+Streaming_Services_Count,0.2101092755929176
+No_Online_Security,0.15539509148752473
+Paperless Billing_Yes,0.14025424691654712
+Payment Method_Electronic check,0.13776415614291201
+Multiple Lines_Yes,0.13064781574428388
+No_Tech_Support,0.12581675021926514
+Multiple Lines_No phone service,0.11473287088975859
+Is_New_Customer,0.11222703296937328
+Partner_Yes,0.10347062038434499
+Is_Month_To_Month,0.029166697382532657
+Online Backup_Yes,0.028890931063178065
+Is_Electronic_Check,0.025590395050419542
+Tenure_Group_25_48_months,0.020641151091340324
+Longitude,0.020075559117702306
+Senior Citizen_Yes,0.007137593988979371
+Is_Fiber_Optic,0.0010715312633352296
+Phone Service_Yes,0.0002901532722355377
+Has_Internet_Service,0.0
+Total_Services_Count,0.0
+Protection_Support_Count,0.0
+CLTV,0.0
+Estimated_Total_Charges,0.0
+High_Monthly_Charges,0.0
+Tenure Months,0.0
+Latitude,0.0
+Monthly Charges,0.0
+Total Charges,0.0
+Is_Long_Term_Customer,0.0
+Online Security_No internet service,0.0
+Gender_Male,0.0
+Internet Service_No,0.0
+Device Protection_No internet service,0.0
+Online Backup_No internet service,0.0
+Online Security_Yes,0.0
+Device Protection_Yes,0.0
+Streaming TV_Yes,0.0
+Tech Support_No internet service,0.0
+Tech Support_Yes,0.0
+Streaming TV_No internet service,0.0
+Contract_One year,0.0
+Streaming Movies_Yes,0.0
+Streaming Movies_No internet service,0.0
+Contract_Two year,0.0
+Payment Method_Credit card (automatic),0.0
+Payment Method_Mailed check,0.0
+Tenure_Group_13_24_months,0.0
+Tenure_Group_49_72_months,0.0

@@ -1,0 +1,7 @@
+================================================================================
+BATCH PREDICTION
+================================================================================
+Input: models/final_model/sample_input_features.csv
+Input type: features
+Rows predicted: 1
+Output saved: /app/reports/final_pipeline_runs/batch_prediction_from_pipeline.csv

@@ -1,0 +1,21 @@
+Item,Path,Exists,Type,Size Bytes
+Raw dataset,C:\Users\NezarHalabia\finallprogect\data\v1\Telco_customer_churn.xlsx,True,file,1368250
+Readable cleaned dataset v2,C:\Users\NezarHalabia\finallprogect\data\v2\telco_churn_v2_readable.csv,True,file,1203232
+Encoded dataset v2,C:\Users\NezarHalabia\finallprogect\data\v2\telco_churn_v2.csv,True,file,16647175
+Final feature dataset v3,C:\Users\NezarHalabia\finallprogect\data\v3\telco_churn_v3.csv,True,file,2359453
+Final unscaled feature dataset v3,C:\Users\NezarHalabia\finallprogect\data\v3\telco_churn_v3_encoded_unscaled.csv,True,file,1228828
+Final model,C:\Users\NezarHalabia\finallprogect\models\final_model\final_model.joblib,True,file,573442
+Final model metadata,C:\Users\NezarHalabia\finallprogect\models\final_model\final_model_metadata.json,True,file,7308
+Feature names,C:\Users\NezarHalabia\finallprogect\models\final_model\feature_names.json,True,file,1555
+Decision threshold,C:\Users\NezarHalabia\finallprogect\models\final_model\decision_threshold.json,True,file,113
+Sample input,C:\Users\NezarHalabia\finallprogect\models\final_model\sample_input_features.csv,True,file,1297
+run_pipeline.py,C:\Users\NezarHalabia\finallprogect\run_pipeline.py,True,file,8403
+src/inference.py,C:\Users\NezarHalabia\finallprogect\src\inference.py,True,file,6004
+Dockerfile,C:\Users\NezarHalabia\finallprogect\Dockerfile,True,file,676
+.dockerignore,C:\Users\NezarHalabia\finallprogect\.dockerignore,True,file,432
+requirements.txt,C:\Users\NezarHalabia\finallprogect\requirements.txt,True,file,100
+requirements_docker.txt,C:\Users\NezarHalabia\finallprogect\requirements_docker.txt,True,file,83
+PIPELINE_USAGE.md,C:\Users\NezarHalabia\finallprogect\PIPELINE_USAGE.md,True,file,1499
+DOCKER_USAGE.md,C:\Users\NezarHalabia\finallprogect\DOCKER_USAGE.md,True,file,1296
+mlflow.db,C:\Users\NezarHalabia\finallprogect\mlflow.db,True,file,933888
+mlruns directory,C:\Users\NezarHalabia\finallprogect\mlruns,True,directory,

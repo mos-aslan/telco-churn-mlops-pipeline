@@ -1,0 +1,7 @@
+Item,Path,Exists
+mlflow_db,C:\Users\NezarHalabia\finallprogect\mlflow.db,True
+mlruns_dir,C:\Users\NezarHalabia\finallprogect\mlruns,True
+final_model_dir,C:\Users\NezarHalabia\finallprogect\models\final_model,True
+final_model_metadata,C:\Users\NezarHalabia\finallprogect\models\final_model\final_model_metadata.json,True
+docker_usage,C:\Users\NezarHalabia\finallprogect\DOCKER_USAGE.md,True
+pipeline_usage,C:\Users\NezarHalabia\finallprogect\PIPELINE_USAGE.md,True

@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/NezarHalabia/finallprogect/mlruns/models/m-2805f1e1f6074165b687a93f97a6e029/artifacts
+flavors:
+  catboost:
+    catboost_version: 1.2.10
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.13.5
+mlflow_version: 3.14.0
+model_id: m-2805f1e1f6074165b687a93f97a6e029
+model_size_bytes: 572080
+model_uuid: m-2805f1e1f6074165b687a93f97a6e029
+prompts: null
+run_id: 1fb4f8bd76a9494f950a3bce10c80956
+utc_time_created: '2026-07-06 23:41:09.044941'

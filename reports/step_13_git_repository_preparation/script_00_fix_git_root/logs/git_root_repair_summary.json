@@ -1,0 +1,10 @@
+{
+    "timestamp": "20260707_073204",
+    "project_root": "C:\\Users\\NezarHalabia\\finallprogect",
+    "detected_original_git_root": "C:\\Users\\NezarHalabia",
+    "repair_action": "Moved wrong Git root from C:\\Users\\NezarHalabia\\.git to C:\\Users\\NezarHalabia\\.git_BACKUP_WRONG_ROOT_20260707_073204",
+    "backup_path": "C:\\Users\\NezarHalabia\\.git_BACKUP_WRONG_ROOT_20260707_073204",
+    "final_git_root": "C:/Users/NezarHalabia/finallprogect",
+    "status_clean_from_parent_paths": true,
+    "results_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_13_git_repository_preparation\\script_00_fix_git_root\\tables\\git_root_repair_command_results.csv"
+}

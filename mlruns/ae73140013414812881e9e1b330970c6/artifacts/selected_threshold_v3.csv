@@ -1,0 +1,2 @@
+Selection Rule,Selected Threshold,OOF Accuracy,OOF Precision,OOF Recall,OOF F1-score,OOF ROC-AUC,OOF Specificity,OOF FP,OOF FN,OOF TP,OOF TN
+"Max OOF F1-score; if within 0.005 of max F1, prefer higher Recall then higher Precision",0.5,0.7703230386936457,0.5449262405006705,0.8153846153846154,0.6532690246516613,0.8643653120937069,0.7540468712249335,1018,276,1219,3121

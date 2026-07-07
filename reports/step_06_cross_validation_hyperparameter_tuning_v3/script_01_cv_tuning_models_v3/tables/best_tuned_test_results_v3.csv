@@ -1,0 +1,2 @@
+Dataset Version,Model,Split,Accuracy,Precision,Recall,F1-score,ROC-AUC,Model Path
+v3_encoded_unscaled,CatBoost,Test,0.757984,0.528998,0.804813,0.638388,0.857661,C:\Users\NezarHalabia\finallprogect\models\tuned_v3\best_tuned_model_v3.joblib

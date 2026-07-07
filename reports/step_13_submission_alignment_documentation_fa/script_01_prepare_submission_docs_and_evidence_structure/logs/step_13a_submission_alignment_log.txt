@@ -1,0 +1,11 @@
+STEP 13A - FINAL SUBMISSION ALIGNMENT AND PERSIAN DOCUMENTATION
+
+Timestamp: 2026-07-07 07:23:28
+README.md: C:\Users\NezarHalabia\finallprogect\README.md
+PROJECT_STRUCTURE.md: C:\Users\NezarHalabia\finallprogect\PROJECT_STRUCTURE.md
+SUBMISSION_CHECKLIST.md: C:\Users\NezarHalabia\finallprogect\SUBMISSION_CHECKLIST.md
+Evidence README: C:\Users\NezarHalabia\finallprogect\evidence\README_EVIDENCE_FA.md
+Git guide: C:\Users\NezarHalabia\finallprogect\GIT_SUBMISSION_GUIDE_FA.md
+Report outline: C:\Users\NezarHalabia\finallprogect\FINAL_REPORT_OUTLINE_FA.md
+F1-score: 0.6383881230116649
+ROC-AUC: 0.8576610090676586

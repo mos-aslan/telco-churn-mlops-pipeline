@@ -1,0 +1,27 @@
+STEP 8 - FINAL CHAMPION MODEL SELECTION AND PACKAGING
+
+Timestamp: 2026-07-07 03:36:29
+Final model name: CatBoost
+Final candidate type: Threshold-Optimized Tuned Model
+Final decision threshold: 0.5
+
+Final candidate comparison:
+                      Candidate Source Step    Model Threshold Type  Threshold  Accuracy  Precision   Recall  F1-score  ROC-AUC                                                                                    Model Path
+Threshold-Optimized Tuned Model      Step 7 CatBoost      Optimized        0.5  0.757984   0.528998 0.804813  0.638388 0.857661 C:\Users\NezarHalabia\finallprogect\models\final_candidate_v3\final_candidate_model_v3.joblib
+               Best Tuned Model      Step 6 CatBoost        Default        0.5  0.757984   0.528998 0.804813  0.638388 0.857661                C:\Users\NezarHalabia\finallprogect\models\tuned_v3\best_tuned_model_v3.joblib
+            Best Baseline Model      Step 5 CatBoost        Default        0.5  0.762952   0.538911 0.740642  0.623874 0.848914          C:\Users\NezarHalabia\finallprogect\models\baseline_v3\best_baseline_model_v3.joblib
+
+Final model path: C:\Users\NezarHalabia\finallprogect\models\final_model\final_model.joblib
+Final metadata path: C:\Users\NezarHalabia\finallprogect\models\final_model\final_model_metadata.json
+Feature names path: C:\Users\NezarHalabia\finallprogect\models\final_model\feature_names.json
+
+Sample prediction test:
+{
+    "sample_probability": 0.6560538449624077,
+    "decision_threshold": 0.5,
+    "sample_prediction": 1
+}
+
+MLflow tracking URI: sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db
+MLflow artifact location: file:///C:/Users/NezarHalabia/finallprogect/mlruns
+MLflow flavor logging status: success

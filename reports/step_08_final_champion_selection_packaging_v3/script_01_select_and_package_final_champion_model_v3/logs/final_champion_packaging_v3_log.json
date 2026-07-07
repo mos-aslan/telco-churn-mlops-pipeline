@@ -1,0 +1,22 @@
+{
+    "step": "step_08_final_champion_selection_packaging_v3",
+    "script": "script_01_select_and_package_final_champion_model_v3",
+    "timestamp": "2026-07-07 03:36:29",
+    "clean_previous_step8_outputs": true,
+    "clean_previous_step8_mlflow_runs": true,
+    "final_model_name": "CatBoost",
+    "final_candidate_type": "Threshold-Optimized Tuned Model",
+    "final_threshold": 0.5,
+    "final_model_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_model\\final_model.joblib",
+    "final_metadata_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_model\\final_model_metadata.json",
+    "final_feature_names_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_model\\feature_names.json",
+    "final_comparison_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_08_final_champion_selection_packaging_v3\\script_01_select_and_package_final_champion_model_v3\\tables\\final_champion_candidate_comparison_v3.csv",
+    "sample_prediction_result": {
+        "sample_probability": 0.6560538449624077,
+        "decision_threshold": 0.5,
+        "sample_prediction": 1
+    },
+    "mlflow_tracking_uri": "sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db",
+    "mlflow_artifact_location": "file:///C:/Users/NezarHalabia/finallprogect/mlruns",
+    "mlflow_flavor_logging_status": "success"
+}

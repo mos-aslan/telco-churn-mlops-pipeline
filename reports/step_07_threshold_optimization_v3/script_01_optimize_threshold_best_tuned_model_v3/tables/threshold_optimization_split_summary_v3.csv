@@ -1,0 +1,3 @@
+Split,Rows,Features,Churn_0_Count,Churn_1_Count,Churn_1_Percentage
+Train_Validation,5634,52,4139,1495,26.54
+Test,1409,52,1035,374,26.54

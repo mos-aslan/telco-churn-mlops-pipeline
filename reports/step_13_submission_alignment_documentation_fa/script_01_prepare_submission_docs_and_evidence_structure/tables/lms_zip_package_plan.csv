@@ -1,0 +1,18 @@
+Item,Include in ZIP,Reason
+data/,True,نسخه‌های داده v1/v2/v3 مورد نیاز پروژه
+src/,True,کد ماژولار پروژه
+models/final_model/,True,مدل نهایی و فایل‌های inference
+reports/,True,خروجی‌ها، جداول و نمودارهای مراحل پروژه
+evidence/,True,تصاویر MLflow، Docker، GitHub و Pipeline
+mlflow.db,True,پایگاه داده آزمایش‌های MLflow
+mlruns/,True,Artifacts مربوط به MLflow
+run_pipeline.py,True,فایل اصلی اجرای Pipeline
+Dockerfile,True,برای ساخت Docker Image
+requirements.txt,True,وابستگی‌های محیط محلی
+requirements_docker.txt,True,وابستگی‌های Docker
+README.md,True,مستند اصلی پروژه
+DockerDesktopData/,False,داده داخلی Docker؛ نباید ارسال شود
+.git/,False,معمولاً برای LMS لازم نیست؛ GitHub لینک/تصاویر کافی است
+__pycache__/,False,فایل‌های موقت Python
+.ipynb_checkpoints/,False,فایل‌های موقت Jupyter
+*.zip,False,جلوگیری از zip داخل zip

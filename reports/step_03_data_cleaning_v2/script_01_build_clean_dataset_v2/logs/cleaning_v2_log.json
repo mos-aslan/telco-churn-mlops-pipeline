@@ -1,0 +1,75 @@
+{
+    "step": "step_03_data_cleaning_v2",
+    "script": "script_01_build_clean_dataset_v2",
+    "timestamp": "2026-07-07 02:27:21",
+    "project_root": "C:\\Users\\NezarHalabia\\finallprogect",
+    "input_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v1\\Telco_customer_churn.xlsx",
+    "output_readable_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v2\\telco_churn_v2_readable.csv",
+    "output_encoded_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v2\\telco_churn_v2.csv",
+    "raw_shape": {
+        "rows": 7043,
+        "columns": 33
+    },
+    "readable_v2_shape": {
+        "rows": 7043,
+        "columns": 25
+    },
+    "encoded_v2_shape": {
+        "rows": 7043,
+        "columns": 1163
+    },
+    "removed_columns": {
+        "CustomerID": "Unique customer identifier; not useful as a general predictive feature.",
+        "Count": "Constant column with no variance.",
+        "Country": "Constant or non-informative geographic column for this dataset.",
+        "State": "Constant or non-informative geographic column for this dataset.",
+        "Lat Long": "Textual coordinate representation; redundant with Latitude and Longitude.",
+        "Churn Label": "Direct textual duplicate of the target variable; causes target leakage.",
+        "Churn Score": "Precomputed churn-related score; high risk of target leakage.",
+        "Churn Reason": "Post-churn explanation available only for churned customers; causes target leakage."
+    },
+    "total_charges_conversion": {
+        "column": "Total Charges",
+        "dtype_before": "object",
+        "dtype_after": "float64",
+        "invalid_or_missing_after_numeric_conversion": 11,
+        "imputation_strategy": "median",
+        "median_value_used": 1397.475
+    },
+    "categorical_columns_encoded": [
+        "City",
+        "Gender",
+        "Senior Citizen",
+        "Partner",
+        "Dependents",
+        "Phone Service",
+        "Multiple Lines",
+        "Internet Service",
+        "Online Security",
+        "Online Backup",
+        "Device Protection",
+        "Tech Support",
+        "Streaming TV",
+        "Streaming Movies",
+        "Contract",
+        "Paperless Billing",
+        "Payment Method"
+    ],
+    "target_distribution": [
+        {
+            "Churn Value": 0,
+            "Count": 5174,
+            "Percentage": 73.46
+        },
+        {
+            "Churn Value": 1,
+            "Count": 1869,
+            "Percentage": 26.54
+        }
+    ],
+    "validation": {
+        "target_column_exists": true,
+        "missing_values_in_final_dataset": 0,
+        "non_numeric_predictor_columns": []
+    }
+}

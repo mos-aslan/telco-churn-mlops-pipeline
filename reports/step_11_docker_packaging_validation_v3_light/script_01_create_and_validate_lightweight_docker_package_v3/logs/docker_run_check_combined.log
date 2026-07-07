@@ -1,0 +1,22 @@
+================================================================================
+PROJECT READINESS CHECK
+================================================================================
+                 Item                                              Path  Exists
+         project_root                                              /app    True
+          data_v1_dir                                      /app/data/v1    True
+          data_v2_dir                                      /app/data/v2    True
+          data_v3_dir                                      /app/data/v3    True
+              src_dir                                          /app/src    True
+           models_dir                                       /app/models    True
+      final_model_dir                           /app/models/final_model    True
+     src_inference_py                             /app/src/inference.py    True
+      src_features_py                              /app/src/features.py    True
+          final_model        /app/models/final_model/final_model.joblib    True
+       final_metadata /app/models/final_model/final_model_metadata.json    True
+        feature_names        /app/models/final_model/feature_names.json    True
+   decision_threshold   /app/models/final_model/decision_threshold.json    True
+sample_input_features /app/models/final_model/sample_input_features.csv    True
+
+All required items exist: True
+Readiness table saved: /app/reports/final_pipeline_runs/project_readiness_check.csv
+Readiness summary saved: /app/reports/final_pipeline_runs/project_readiness_summary.json

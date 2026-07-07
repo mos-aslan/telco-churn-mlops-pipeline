@@ -1,0 +1,137 @@
+{
+    "step": "step_05_baseline_model_training_v3",
+    "script": "script_01_train_baseline_models_v3",
+    "timestamp": "2026-07-07 02:49:12",
+    "input_dataset": "C:\\Users\\NezarHalabia\\finallprogect\\data\\v3\\telco_churn_v3.csv",
+    "dataset_shape": {
+        "rows": 7043,
+        "columns": 53
+    },
+    "target_column": "Churn Value",
+    "feature_count": 52,
+    "split_summary": [
+        {
+            "Split": "Train",
+            "Rows": 4225,
+            "Features": 52,
+            "Churn_0_Count": 3104,
+            "Churn_1_Count": 1121,
+            "Churn_1_Percentage": 26.53
+        },
+        {
+            "Split": "Validation",
+            "Rows": 1409,
+            "Features": 52,
+            "Churn_0_Count": 1035,
+            "Churn_1_Count": 374,
+            "Churn_1_Percentage": 26.54
+        },
+        {
+            "Split": "Test",
+            "Rows": 1409,
+            "Features": 52,
+            "Churn_0_Count": 1035,
+            "Churn_1_Count": 374,
+            "Churn_1_Percentage": 26.54
+        }
+    ],
+    "models_trained": [
+        "LogisticRegression",
+        "RandomForest",
+        "XGBoost",
+        "CatBoost"
+    ],
+    "model_parameters": {
+        "LogisticRegression": {
+            "max_iter": 2000,
+            "class_weight": "balanced",
+            "random_state": 42
+        },
+        "RandomForest": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced",
+            "random_state": 42
+        },
+        "XGBoost": {
+            "n_estimators": 300,
+            "max_depth": 3,
+            "learning_rate": 0.05,
+            "subsample": 0.9,
+            "colsample_bytree": 0.9,
+            "scale_pos_weight": 2.768956289027654,
+            "random_state": 42
+        },
+        "CatBoost": {
+            "iterations": 300,
+            "depth": 6,
+            "learning_rate": 0.05,
+            "auto_class_weights": "Balanced",
+            "random_state": 42
+        }
+    },
+    "validation_results": [
+        {
+            "Dataset Version": "v3",
+            "Model": "CatBoost",
+            "Split": "Validation",
+            "Accuracy": 0.780696,
+            "Precision": 0.564103,
+            "Recall": 0.764706,
+            "F1-score": 0.649262,
+            "ROC-AUC": 0.855256,
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\catboost_baseline_v3.joblib"
+        },
+        {
+            "Dataset Version": "v3",
+            "Model": "XGBoost",
+            "Split": "Validation",
+            "Accuracy": 0.765791,
+            "Precision": 0.54,
+            "Recall": 0.794118,
+            "F1-score": 0.642857,
+            "ROC-AUC": 0.856075,
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\xgboost_baseline_v3.joblib"
+        },
+        {
+            "Dataset Version": "v3",
+            "Model": "LogisticRegression",
+            "Split": "Validation",
+            "Accuracy": 0.763662,
+            "Precision": 0.537615,
+            "Recall": 0.783422,
+            "F1-score": 0.63765,
+            "ROC-AUC": 0.85353,
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\logisticregression_baseline_v3.joblib"
+        },
+        {
+            "Dataset Version": "v3",
+            "Model": "RandomForest",
+            "Split": "Validation",
+            "Accuracy": 0.79489,
+            "Precision": 0.662835,
+            "Recall": 0.462567,
+            "F1-score": 0.544882,
+            "ROC-AUC": 0.840695,
+            "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\randomforest_baseline_v3.joblib"
+        }
+    ],
+    "best_model": "CatBoost",
+    "best_model_path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\best_baseline_model_v3.joblib",
+    "test_results": {
+        "Dataset Version": "v3",
+        "Model": "CatBoost",
+        "Split": "Test",
+        "Accuracy": 0.762952,
+        "Precision": 0.538911,
+        "Recall": 0.740642,
+        "F1-score": 0.623874,
+        "ROC-AUC": 0.848914,
+        "Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\baseline_v3\\best_baseline_model_v3.joblib"
+    },
+    "mlflow_tracking_uri": "sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db",
+    "mlflow_artifact_location": "file:///C:/Users/NezarHalabia/finallprogect/mlruns",
+    "report_folder": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_05_baseline_model_training_v3\\script_01_train_baseline_models_v3"
+}

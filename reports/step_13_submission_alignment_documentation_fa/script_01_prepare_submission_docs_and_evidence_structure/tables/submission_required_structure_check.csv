@@ -1,0 +1,19 @@
+Required Item,Path,Exists,Type,Description FA
+data/v1,C:\Users\NezarHalabia\finallprogect\data\v1,True,directory,نسخه خام دیتاست
+data/v2,C:\Users\NezarHalabia\finallprogect\data\v2,True,directory,نسخه پاکسازی‌شده و کدگذاری‌شده
+data/v3,C:\Users\NezarHalabia\finallprogect\data\v3,True,directory,نسخه نهایی Feature Engineering
+src/data_loader.py,C:\Users\NezarHalabia\finallprogect\src\data_loader.py,True,file,ماژول بارگذاری داده
+src/preprocessing.py,C:\Users\NezarHalabia\finallprogect\src\preprocessing.py,True,file,ماژول پیش‌پردازش
+src/features.py,C:\Users\NezarHalabia\finallprogect\src\features.py,True,file,ماژول Feature Engineering
+src/train.py,C:\Users\NezarHalabia\finallprogect\src\train.py,True,file,ماژول آموزش مدل
+src/evaluate.py,C:\Users\NezarHalabia\finallprogect\src\evaluate.py,True,file,ماژول ارزیابی مدل
+src/mlflow_utils.py,C:\Users\NezarHalabia\finallprogect\src\mlflow_utils.py,True,file,ماژول کمکی MLflow
+run_pipeline.py,C:\Users\NezarHalabia\finallprogect\run_pipeline.py,True,file,فایل اصلی اجرای Pipeline
+README.md,C:\Users\NezarHalabia\finallprogect\README.md,True,file,مستند اصلی پروژه
+mlflow.db,C:\Users\NezarHalabia\finallprogect\mlflow.db,True,file,پایگاه داده MLflow
+mlruns,C:\Users\NezarHalabia\finallprogect\mlruns,True,directory,Artifacts مربوط به MLflow
+Dockerfile,C:\Users\NezarHalabia\finallprogect\Dockerfile,True,file,فایل ساخت Docker Image
+requirements.txt,C:\Users\NezarHalabia\finallprogect\requirements.txt,True,file,وابستگی‌های محیط محلی
+requirements_docker.txt,C:\Users\NezarHalabia\finallprogect\requirements_docker.txt,True,file,وابستگی‌های سبک Docker
+models/final_model,C:\Users\NezarHalabia\finallprogect\models\final_model,True,directory,بسته مدل نهایی
+evidence,C:\Users\NezarHalabia\finallprogect\evidence,True,directory,پوشه تصاویر و شواهد تحویل

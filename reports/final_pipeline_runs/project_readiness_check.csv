@@ -1,0 +1,15 @@
+Item,Path,Exists
+project_root,C:\Users\NezarHalabia\finallprogect,True
+data_v1_dir,C:\Users\NezarHalabia\finallprogect\data\v1,True
+data_v2_dir,C:\Users\NezarHalabia\finallprogect\data\v2,True
+data_v3_dir,C:\Users\NezarHalabia\finallprogect\data\v3,True
+src_dir,C:\Users\NezarHalabia\finallprogect\src,True
+models_dir,C:\Users\NezarHalabia\finallprogect\models,True
+final_model_dir,C:\Users\NezarHalabia\finallprogect\models\final_model,True
+src_inference_py,C:\Users\NezarHalabia\finallprogect\src\inference.py,True
+src_features_py,C:\Users\NezarHalabia\finallprogect\src\features.py,True
+final_model,C:\Users\NezarHalabia\finallprogect\models\final_model\final_model.joblib,True
+final_metadata,C:\Users\NezarHalabia\finallprogect\models\final_model\final_model_metadata.json,True
+feature_names,C:\Users\NezarHalabia\finallprogect\models\final_model\feature_names.json,True
+decision_threshold,C:\Users\NezarHalabia\finallprogect\models\final_model\decision_threshold.json,True
+sample_input_features,C:\Users\NezarHalabia\finallprogect\models\final_model\sample_input_features.csv,True

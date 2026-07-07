@@ -1,0 +1,18 @@
+Created Feature,Description
+Tenure_Group,Customer tenure grouped into four meaningful ranges.
+Is_New_Customer,Binary flag for customers with tenure <= 12 months.
+Is_Long_Term_Customer,Binary flag for customers with tenure >= 48 months.
+Charges_Per_Tenure,Monthly charges divided by tenure plus one.
+Estimated_Total_Charges,Monthly charges multiplied by tenure months.
+High_Monthly_Charges,Binary flag for monthly charges above the dataset median.
+TotalCharges_to_MonthlyRatio,Ratio of total charges to monthly charges.
+Contract_Risk_Level,Ordinal risk level based on contract type.
+Is_Month_To_Month,Binary flag for month-to-month contracts.
+Is_Electronic_Check,Binary flag for electronic check payment method.
+Has_Internet_Service,Binary flag for customers with any internet service.
+Is_Fiber_Optic,Binary flag for fiber optic internet service.
+Total_Services_Count,Total count of active customer services.
+Protection_Support_Count,"Count of security, backup, protection, and support services."
+Streaming_Services_Count,Count of active streaming services.
+No_Online_Security,Binary flag for absence of online security.
+No_Tech_Support,Binary flag for absence of technical support.

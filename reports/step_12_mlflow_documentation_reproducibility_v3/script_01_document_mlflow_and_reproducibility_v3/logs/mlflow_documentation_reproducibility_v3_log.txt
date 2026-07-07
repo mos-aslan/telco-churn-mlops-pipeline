@@ -1,0 +1,15 @@
+STEP 12 - MLFLOW DOCUMENTATION AND REPRODUCIBILITY SUMMARY
+
+Timestamp: 2026-07-07 06:58:07
+Tracking URI: sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db
+Experiment name: Telco_Churn_MLOps
+Experiment ID: 1
+Run count: 16
+Artifact record count: 107
+
+Final model summary:
+Final Model         Model Status     Dataset Version            Final Candidate Type  Decision Threshold  Accuracy  Precision   Recall  F1-score  ROC-AUC                                                          Final Model Path
+   CatBoost final_champion_model v3_encoded_unscaled Threshold-Optimized Tuned Model                 0.5  0.757984   0.528998 0.804813  0.638388 0.857661 C:\Users\NezarHalabia\finallprogect\models\final_model\final_model.joblib
+
+MLFLOW_USAGE.md: C:\Users\NezarHalabia\finallprogect\MLFLOW_USAGE.md
+EXPERIMENT_REPRODUCIBILITY_SUMMARY.md: C:\Users\NezarHalabia\finallprogect\EXPERIMENT_REPRODUCIBILITY_SUMMARY.md

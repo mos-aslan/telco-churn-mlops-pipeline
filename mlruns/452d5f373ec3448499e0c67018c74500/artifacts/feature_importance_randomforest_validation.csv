@@ -1,0 +1,53 @@
+Feature,Importance
+Charges_Per_Tenure,0.09888567408289768
+TotalCharges_to_MonthlyRatio,0.06202405841518811
+Monthly Charges,0.057165822277194855
+CLTV,0.05647996428504575
+Contract_Risk_Level,0.05529832081315764
+Total Charges,0.054530746184206315
+Estimated_Total_Charges,0.05450436765990516
+Longitude,0.052248673010584265
+Latitude,0.051003597285940463
+Is_Month_To_Month,0.04845274577912963
+Tenure Months,0.048003362732835175
+Dependents_Yes,0.032582076399558416
+Contract_Two year,0.023290924136462575
+No_Online_Security,0.02250364291549213
+No_Tech_Support,0.019954854802317474
+Internet Service_Fiber optic,0.019888956564182988
+Is_Fiber_Optic,0.01912143018596118
+Total_Services_Count,0.016516526050919203
+Protection_Support_Count,0.015083185288964948
+Is_Electronic_Check,0.011738433227989384
+Gender_Male,0.011618568632380873
+Paperless Billing_Yes,0.011301849409691079
+Payment Method_Electronic check,0.010497152041999636
+Streaming_Services_Count,0.00998842210864406
+Partner_Yes,0.00940787562952153
+Is_New_Customer,0.008451725379995664
+Online Backup_Yes,0.00842309476457952
+Senior Citizen_Yes,0.007883873337190398
+Multiple Lines_Yes,0.007582448081882279
+Tech Support_Yes,0.006567542201771764
+Online Security_Yes,0.006566005769160901
+Device Protection_Yes,0.006294760223530214
+Payment Method_Mailed check,0.00618958960224925
+Streaming TV_Yes,0.006074464801285684
+Payment Method_Credit card (automatic),0.0059889827579986624
+Streaming Movies_Yes,0.00598307400333319
+Contract_One year,0.005813092998126272
+High_Monthly_Charges,0.00504000832163751
+Tenure_Group_49_72_months,0.00492763306574329
+Is_Long_Term_Customer,0.00464439240278399
+Online Security_No internet service,0.003625930202889777
+Tech Support_No internet service,0.003423508821598414
+Internet Service_No,0.0032587007668136584
+Tenure_Group_25_48_months,0.002752846462807308
+Phone Service_Yes,0.0026760448650206617
+Multiple Lines_No phone service,0.0026173156706105058
+Streaming Movies_No internet service,0.002518005748058611
+Tenure_Group_13_24_months,0.0025002720140372414
+Device Protection_No internet service,0.0023307450943992054
+Online Backup_No internet service,0.002288049023887693
+Has_Internet_Service,0.0017577139281125522
+Streaming TV_No internet service,0.0017289497703254137

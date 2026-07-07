@@ -1,0 +1,9 @@
+Removed Column,Reason
+CustomerID,Unique customer identifier; not useful as a general predictive feature.
+Count,Constant column with no variance.
+Country,Constant or non-informative geographic column for this dataset.
+State,Constant or non-informative geographic column for this dataset.
+Lat Long,Textual coordinate representation; redundant with Latitude and Longitude.
+Churn Label,Direct textual duplicate of the target variable; causes target leakage.
+Churn Score,Precomputed churn-related score; high risk of target leakage.
+Churn Reason,Post-churn explanation available only for churned customers; causes target leakage.

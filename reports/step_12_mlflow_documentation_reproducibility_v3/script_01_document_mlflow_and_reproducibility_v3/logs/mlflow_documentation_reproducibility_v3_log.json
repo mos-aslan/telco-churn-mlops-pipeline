@@ -1,0 +1,26 @@
+{
+    "step": "step_12_mlflow_documentation_reproducibility_v3",
+    "script": "script_01_document_mlflow_and_reproducibility_v3",
+    "timestamp": "2026-07-07 06:58:07",
+    "tracking_uri": "sqlite:///C:/Users/NezarHalabia/finallprogect/mlflow.db",
+    "experiment_name": "Telco_Churn_MLOps",
+    "experiment_id": "1",
+    "run_count": 16,
+    "artifact_record_count": 107,
+    "final_model_summary": {
+        "Final Model": "CatBoost",
+        "Model Status": "final_champion_model",
+        "Dataset Version": "v3_encoded_unscaled",
+        "Final Candidate Type": "Threshold-Optimized Tuned Model",
+        "Decision Threshold": 0.5,
+        "Accuracy": 0.7579843860894251,
+        "Precision": 0.5289982425307557,
+        "Recall": 0.8048128342245989,
+        "F1-score": 0.6383881230116649,
+        "ROC-AUC": 0.8576610090676586,
+        "Final Model Path": "C:\\Users\\NezarHalabia\\finallprogect\\models\\final_model\\final_model.joblib"
+    },
+    "mlflow_usage_path": "C:\\Users\\NezarHalabia\\finallprogect\\MLFLOW_USAGE.md",
+    "reproducibility_summary_path": "C:\\Users\\NezarHalabia\\finallprogect\\EXPERIMENT_REPRODUCIBILITY_SUMMARY.md",
+    "manifest_path": "C:\\Users\\NezarHalabia\\finallprogect\\reports\\step_12_mlflow_documentation_reproducibility_v3\\script_01_document_mlflow_and_reproducibility_v3\\tables\\project_reproducibility_manifest.csv"
+}
